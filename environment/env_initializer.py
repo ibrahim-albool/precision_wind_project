@@ -1,6 +1,6 @@
 import numpy as np
 import os
-
+import pandas as pd
 
 class Initializer:
     def __init__(self, env, dynamics_randomization=False):
@@ -9,6 +9,11 @@ class Initializer:
 
     def initialize(self, dynamics_randomization):
         env = self.env
+
+        df = pd.read_excel('environment/y_ref.xlsx', sheet_name='Sheet1')
+        env.y_ref = df["y_ref"].to_numpy()
+        env.V_y_ref = df["V_y_ref"].to_numpy()
+
 
         state_est_size = 7
         env.observation_space = np.zeros(state_est_size)
