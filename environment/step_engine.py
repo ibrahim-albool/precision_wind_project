@@ -148,7 +148,7 @@ class ControlEngine:
     def step_SMC_x(self, x, x_ref=0.):
         env = self.env
         sigma = np.sign(x_ref-x + 1e-16)
-        u_x = np.clip(sigma * env.thersh_limit, -env.thersh_limit, env.thersh_limit)
+        u_x = np.clip(sigma * env.thersh_limit*3., -env.thersh_limit*3., env.thersh_limit*3.)
 
         return u_x
 

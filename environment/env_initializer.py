@@ -91,7 +91,7 @@ class Initializer:
         # 1.0 + 5.0 * rand ( from 1.0 to 6.0 )
         impulse_start_rand = np.random.rand() *0. +1.0
         impulse_start = int(impulse_start_rand * 3.0 / env.Ts + 1.0 / env.Ts)
-        env.V_w_arr[impulse_start:impulse_start + impulse_width] = 10.*0.
+        env.V_w_arr[impulse_start:impulse_start + impulse_width] = 15.
 
 
         env.x_arr = []
