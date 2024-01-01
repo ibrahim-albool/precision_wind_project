@@ -23,7 +23,7 @@ class Initializer:
         env.Ts = 0.01
         env.eps_length = int(10./env.Ts)
         # period of execution of NN
-        env.N = 3
+        env.N = 2
 
 
         env.Kpx = 20.
