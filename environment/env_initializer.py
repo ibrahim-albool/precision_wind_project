@@ -86,7 +86,7 @@ class Initializer:
 
         env.V_w_arr = np.zeros((env.eps_length,))
         # 0.2 + 0.4 * rand ( from 0.2 to 0.6 )
-        impulse_width_rand = np.random.rand() *0. +0.5
+        impulse_width_rand = np.random.rand() #*0. +0.5
         impulse_width = int(impulse_width_rand * 0.4 / env.Ts + 0.2 / env.Ts)
         # 1.0 + 5.0 * rand ( from 1.0 to 6.0 )
         impulse_start_rand = np.random.rand() *0. +1.0
