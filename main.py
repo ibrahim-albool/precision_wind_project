@@ -54,7 +54,7 @@ if __name__ == "__main__":
     parser.add_argument("--layers",             default="32,32,32,32",     type=str)   # hidden layer sizes in policy
     parser.add_argument("--save_actor",         default=None,          type=str)   # where to save the actor (default=logdir)
     parser.add_argument("--save_critic",        default=None,          type=str)   # where to save the critic (default=logdir)
-    parser.add_argument("--logdir",             default="./logs/ppo/", type=str)   # where to store log information
+    parser.add_argument("--logdir",             default="./LOG_DIRECTORY/", type=str)   # where to store log information
     parser.add_argument("--nolog",              action='store_true')               # store log data or not.
     parser.add_argument("--recurrent",          action='store_true')               # recurrent policy or not
     parser.add_argument("--randomize",          action='store_true')               # randomize dynamics or not

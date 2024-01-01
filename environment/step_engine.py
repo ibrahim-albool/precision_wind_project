@@ -10,190 +10,269 @@ class ControlEngine:
 
     def processStep(self, action):
         env = self.env
-
-        action = np.clip(action, 0., 1.)
-        action = self.fill_in_gains(action)
-        self.step(action)
+        # print(action)
+        action = np.clip(action, 0., 1.) > 0.5
+        full_states, reward = self.step(action)
 
         # Early termination
-        done = np.abs(env.error) > 100. or \
-               env.counter > 10000  # True
+        done = env.counter >= env.eps_length  # True
 
         # show the plots
         if done:
             self.plot_curves()
 
-        reward = self.reward()
 
-        return self.get_full_state(), reward, done, {}
+        return full_states, reward, done, {}
 
-    def get_full_state(self):
+
+
+    # get the states of interest
+    def get_basic_states(self):
         env = self.env
 
         states = np.array([
-            env.r,
-            env.r_dot,
-            env.error,
-            env.error_dot,
-            env.y,
-            env.y_dot,
-            env.u
-        ])
-        gain = np.array([0.005,
-                         0.00005,
-                         0.005,
-                         0.00005,
-                         0.005,
-                         0.00005,
-                         0.001])
-        offset = np.array([0.5,
-                           0.5,
-                           0.5,
-                           0.5,
-                           0.5,
-                           0.5,
-                           0.5])
-        clip_max = np.array([100.,
-                             10000.,
-                             100.,
-                             10000.,
-                             100.,
-                             10000.,
-                             500.])
-        clip_min = np.array([-100.,
-                             -10000.,
-                             -100.,
-                             -10000.,
-                             -100.,
-                             -10000.,
-                             -500.])
-        states = np.clip(states, clip_min, clip_max)
-        states = states * gain + offset
+            env.xn,
+            env.V_xn,
+            env.u_x_n
+        ], dtype=np.float32)
 
+        states = np.clip(np.abs(states), 0., 5.0) / 5.
+
+        return states.reshape(-1, 1)
+
+    # augment the states
+    # basic_states is an
+    def get_full_states(self, basic_states=None):
+        if basic_states is None:
+            basic_states = [self.get_basic_states()]
+        basic_states = np.concatenate(basic_states, axis=1)
+        means = basic_states.mean(axis=1)
+        maxs = basic_states.max(axis=1)
+        mins = basic_states.min(axis=1)
+        norms = np.linalg.norm(basic_states, ord=2, axis=1)
+        states = np.concatenate([means, maxs, mins, norms])
         return states
 
-    # the NN runs at 250 Hz. whereas the controller runs at 1kHz.
-    def step(self, gains):
-        env = self.env
-        for _ in range(4):
-            env.r = self.gen_ref()
-            env.r_dot = self.gen_ref_dot()
-            env.error = env.r - env.yps_1
-            env.error_dot = env.r_dot - env.ypf_1
-            env.u = self.step_PID(env.error, gains)
-            env.y, env.y_dot = self.plant(env.u)
-            env.counter += 1
-        env.y_res.append(env.y)
-        env.y_dot_res.append(env.y_dot)
-        env.u_res.append(env.u)
-        env.r_res.append(env.r)
-        env.r_dot_res.append(env.r_dot)
 
-    def fill_in_gains(self, actions):
-        gain = np.array([200.,
-                         200.,
-                         200.,
-                         1000.])
-        offset = np.array([-100.,
-                           -100.,
-                           -100.,
-                           -500.])
-        actions = actions * gain + offset
-        return actions
-
-    def step_PID(self, error, params):
-        env = self.env
-        P, I, D, N = params
-        Ts = 1e-3
-        # reward of the predefined gains = 2435.26
-        # P = -1.99976633687983
-        # I = -0.62802624974027
-        # D = -0.393281303487897
-        # N = 44.6971267850786
-
-        Ic = I * Ts * env.error_1 + env.Ic_1
-        env.Ic_1 = Ic
-
-        Dc = D * N * error - D * N * env.error_1 + (1 - N * Ts) * env.Dc_1
-
-        u = P * error + Ic + Dc
-
-        env.error_1 = error
-        env.Dc_1 = Dc
-
-        return u
-
-    # returns y, y_dot
-    def plant(self, upf):
-        env = self.env
-        Ts = 1e-3
-
-        # The first and second plant are the decomposition of an original plant into a plant and an integrator.
-        # This was done to easily extract the derivative.
-
-        # y of the first plant
-        ypf = upf - 2.00997554244489 * env.upf_1 + 1.00997554244489 * env.upf_2 + 1.99501347669693 * env.ypf_1 - 0.995012479192682 * env.ypf_2
-        env.ypf_2 = env.ypf_1
-        env.ypf_1 = ypf
-        env.upf_2 = env.upf_1
-        env.upf_1 = upf
-
-        # y of the second plant
-        yps = Ts * env.ups_1 + env.yps_1
-        env.yps_1 = yps
-        ups = ypf
-        env.ups_1 = ups
-
-        # y, y_dot
-        return yps, ypf
-
-    def gen_ref(self):
-        env = self.env
-        return env.ref_arr[env.counter % env.ref_arr.shape[0]]
-
-    def gen_ref_dot(self):
-        env = self.env
-        return env.ref_dot_arr[env.counter % env.ref_arr.shape[0]]
 
     def reward(self):
         env = self.env
-        errors = np.array([env.error**2,
-                           env.error_dot**2,
-                           env.u**2])
-        weights = np.array([0.01,
-                            0.0001,
-                            0.01])
-        exp_weights = np.array([0.5,
-                                0.3,
-                                0.2])
-        reward = exp_weights * np.exp(- errors * weights)
+        squared_errors = np.array([env.u_controller_x ** 2,
+                                   env.xn ** 2,
+                                   env.V_xn ** 2])
 
-        return np.sum(reward)
+        weights = np.array([0.05,
+                            0.85,
+                            0.1])
+
+        reward = -np.sum(weights * squared_errors)
+
+        return reward
+
+    # controller_type True means pd, False means SMC
+    def step(self, controller_type):
+        env = self.env
+
+        # controller_type = True
+
+        rewards = []
+        basic_states = []
+
+        for i in range(env.N):
+            u_controller_x = self.step_controller_x(env.xn, env.V_xn, 0., 0., controller_type)
+            u_controller_y = self.step_pd_y(env.yn, env.V_yn, env.y_ref[env.counter], env.V_y_ref[env.counter])
+
+            V_w = env.V_w_arr[env.counter]
+
+            u_x = u_controller_x + V_w
+            u_y = u_controller_y
+
+            self.plant(u_x, u_y)
+
+            env.u_controller_x = u_controller_x
+            env.u_controller_y = u_controller_x
+            env.u_x_n = u_x
+            env.u_y_n = u_y
+
+            env.counter += 1
+            env.t += env.Ts
+
+
+            env.x_arr.append(env.xn_1)
+            env.V_x_arr.append(env.V_xn_1)
+            env.y_arr.append(env.yn_1)
+            env.V_y_arr.append(env.V_yn_1)
+
+            env.u_x_arr.append(u_x)
+            env.u_y_arr.append(u_y)
+            env.controller_selection_arr.append(int(controller_type))
+
+            rewards.append(self.reward())
+            basic_states.append(self.get_basic_states())
+            if env.counter >= env.eps_length:
+                break
+
+        reward = np.average(rewards)
+        full_states = self.get_full_states(basic_states)
+        return full_states, reward
+
+    def step_controller_x(self, x, V_x, x_ref=0, V_x_ref=0., select_pd=True):
+        if select_pd:
+            return self.step_pd_x(x, V_x, x_ref, V_x_ref)
+        else:
+            return self.step_SMC_x(x, x_ref)
+
+
+    def step_pd_x(self, x, V_x, x_ref=0, V_x_ref=0.):
+        env = self.env
+
+        Kpx = env.Kpx
+        Kdx = env.Kdx
+
+        u_x = Kpx * (x_ref - x) + Kdx * (V_x_ref - V_x)
+        u_x = np.clip(u_x, -env.thersh_limit, env.thersh_limit)
+
+        return u_x
+
+    def step_pd_y(self, y, V_y, y_ref, V_y_ref):
+        env = self.env
+
+        Kpy = env.Kpy
+        Kdy = env.Kdy
+
+        u_y = Kpy * (y_ref - y) + Kdy * (V_y_ref - V_y)
+        u_y = np.clip(u_y, -env.thersh_limit, env.thersh_limit)
+
+        return u_y
+
+    def step_SMC_x(self, x, x_ref=0.):
+        env = self.env
+        sigma = np.sign(x_ref-x + 1e-16)
+        u_x = np.clip(sigma * env.thersh_limit, -env.thersh_limit, env.thersh_limit)
+
+        return u_x
+
+    # returns y, y_dot
+    def plant(self, u_x, u_y):
+        env = self.env
+        Ts = env.Ts
+
+        env.xn_1 = env.xn
+        env.V_xn_1 = env.V_xn
+        env.yn_1 = env.yn
+        env.V_yn_1 = env.V_yn
+
+        env.xn = env.xn_1 + Ts * env.V_xn_1 + 0.5 * Ts ** 2 * u_x
+        env.V_xn = env.V_xn_1 + Ts * u_x
+        env.yn = env.yn_1 + Ts * env.V_yn_1 + 0.5 * Ts ** 2 * u_y
+        env.V_yn = env.V_yn_1 + Ts * u_y
+
+
 
     def plot_curves(self):
         env = self.env
         import matplotlib.pyplot as plt
 
-        y = np.array(env.y_res)
-        y_dot = np.array(env.y_dot_res)
-        u = np.array(env.u_res)
-        r = np.array(env.r_res)
-        r_dot = np.array(env.r_dot_res)
+        plt.figure('Boat States')
 
-        plt.figure('PID w non-minimum phase plant control')
+        plt.subplot(411)
+        plt.title('Horizontal location')
+        plt.plot(env.t_array, env.x_ref_arr, 'r--', label='x_ref')
+        plt.plot(env.t_array, env.x_arr, 'b', label='x')
+        plt.tick_params(
+            axis='x',  # changes apply to the x-axis
+            which='both',  # both major and minor ticks are affected
+            bottom=False,  # ticks along the bottom edge are off
+            top=False,  # ticks along the top edge are off
+            labelbottom=False)  # labels along the bottom edge are off
+        plt.legend()
+        plt.grid()
 
-        plt.subplot(311)
-        plt.title('Position')
-        plt.plot(r)
-        plt.plot(y, '--')
+        plt.subplot(412)
+        plt.title('Horizontal velocity')
+        plt.plot(env.t_array, env.V_x_ref_arr, 'r--', label='V_x_ref')
+        plt.plot(env.t_array, env.V_x_arr, 'b', label='V_x')
+        plt.tick_params(
+            axis='x',  # changes apply to the x-axis
+            which='both',  # both major and minor ticks are affected
+            bottom=False,  # ticks along the bottom edge are off
+            top=False,  # ticks along the top edge are off
+            labelbottom=False)  # labels along the bottom edge are off
+        plt.legend()
+        plt.grid()
 
-        plt.subplot(312)
-        plt.title('Velocity')
-        plt.plot(r_dot)
-        plt.plot(y_dot, '--')
+        plt.subplot(413)
+        plt.title('Vertical location')
+        plt.plot(env.t_array, env.y_ref_arr[:env.eps_length], 'r--', label='y_ref')
+        plt.plot(env.t_array, env.y_arr, 'b', label='y')
+        plt.tick_params(
+            axis='x',  # changes apply to the x-axis
+            which='both',  # both major and minor ticks are affected
+            bottom=False,  # ticks along the bottom edge are off
+            top=False,  # ticks along the top edge are off
+            labelbottom=False)  # labels along the bottom edge are off
+        plt.legend()
+        plt.grid()
 
-        plt.subplot(313)
-        plt.title('Plant Input')
-        plt.plot(u)
+        plt.subplot(414)
+        plt.title('Vertical velocity')
+        plt.plot(env.t_array, env.V_y_ref_arr[:env.eps_length], 'r--', label='V_y_ref')
+        plt.plot(env.t_array, env.V_y_arr, 'b', label='V_y')
+        plt.legend()
+        plt.grid()
+
+        plt.figure('Control Signals')
+
+        plt.subplot(411)
+        plt.title('u_x')
+        plt.plot(env.t_array, env.u_x_arr, 'b', label='x')
+        plt.tick_params(
+            axis='x',  # changes apply to the x-axis
+            which='both',  # both major and minor ticks are affected
+            bottom=False,  # ticks along the bottom edge are off
+            top=False,  # ticks along the top edge are off
+            labelbottom=False)  # labels along the bottom edge are off
+        plt.legend()
+        plt.grid()
+
+        plt.subplot(412)
+        plt.title('V_w')
+        plt.plot(env.t_array, env.V_w_arr, 'b', label='x')
+        plt.tick_params(
+            axis='x',  # changes apply to the x-axis
+            which='both',  # both major and minor ticks are affected
+            bottom=False,  # ticks along the bottom edge are off
+            top=False,  # ticks along the top edge are off
+            labelbottom=False)  # labels along the bottom edge are off
+        plt.legend()
+        plt.grid()
+
+        plt.subplot(413)
+        plt.title('u_y')
+        plt.plot(env.t_array, env.u_y_arr, 'b', label='x')
+        plt.tick_params(
+            axis='x',  # changes apply to the x-axis
+            which='both',  # both major and minor ticks are affected
+            bottom=False,  # ticks along the bottom edge are off
+            top=False,  # ticks along the top edge are off
+            labelbottom=False)  # labels along the bottom edge are off
+        plt.legend()
+        plt.grid()
+
+        plt.subplot(414)
+        plt.title('controller selection (0=SMC, 1=pd)')
+        plt.plot(env.t_array, env.controller_selection_arr, 'b', label='c selection')
+        plt.legend()
+        plt.grid()
+
+
+        # -------------------
+        plt.figure('2-d location')
+
+        plt.title('2-d location')
+        plt.plot(env.x_ref_arr, env.y_ref_arr[:env.eps_length], 'r--', label='x_ref')
+        plt.plot(env.x_arr, env.y_arr, 'b', label='x')
+        plt.grid()
+
 
         plt.show()

@@ -4,7 +4,6 @@ import numpy as np
 
 class Environment:
     def __init__(self, dynamics_randomization=False):
-        self.vis = None
         self.control_engine = ControlEngine(self, dynamics_randomization)
 
     def step(self, action):
@@ -16,4 +15,4 @@ class Environment:
 
     def render(self):
 
-        return self.control_engine.get_full_state()
+        return self.control_engine.get_full_states()
