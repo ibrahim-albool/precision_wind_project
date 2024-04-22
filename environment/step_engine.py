@@ -26,14 +26,20 @@ class ControlEngine:
 
         env.active_controller_list.append(env.active_controller)
 
-        env.dynamics_step()
+
+        try:
+            env.dynamics_step()
+        except Exception as e:
+            env.warning_happened = True
+            print('----------------------------------- Warning ----------------------------------')
         full_states = self.get_full_states()
+
         reward = self.reward()
 
 
 
         env.counter += 1
-        done = env.counter >= env.N
+        done = env.counter >= env.N or env.warning_happened
 
         # # show the plots
         # if done:
@@ -45,13 +51,13 @@ class ControlEngine:
     def get_full_states(self):
         env = self.env
 
-        pos_current = env.x[:, env.counter]
-        pos_error = env.e['x'][:, env.counter]
-        pos_des = env.d['x'][:, env.counter]
-        error_norm = np.array(np.linalg.norm(pos_error)).reshape(-1,)
+        env.pos_current = env.x[:, env.counter]
+        env.pos_error = env.e['x'][:, env.counter]
+        env.pos_des = env.d['x'][:, env.counter]
+        env.error_norm = np.array(np.linalg.norm(env.pos_error)).reshape(-1,)
 
 
-        states = np.concatenate((pos_current, pos_error, pos_des, error_norm ))
+        states = np.concatenate((env.pos_current, env.pos_error, env.pos_des, env.error_norm ))
 
         # states = np.clip(np.abs(states), 0., 5.0) / 5.
 
@@ -59,12 +65,16 @@ class ControlEngine:
 
     def reward(self):
         env = self.env
-        squared_errors = np.array([0., 0., 0.])
 
-        weights = np.array([0.05,
-                            0.85,
-                            0.1])
+        if env.warning_happened:
+            return -200.
 
-        reward = -np.sum(weights * squared_errors)
+        # errors_reward = np.power(np.e, -10 * np.abs(env.pos_error)) - 0.5 * np.power(env.pos_error, 2)
+        error_norm_reward = np.power(np.e, -10 * np.abs(env.error_norm)) - 0.5 * np.power(env.error_norm, 2)
 
-        return reward
+        # rewards = np.concatenate((errors_reward, error_norm_reward))
+        # weights = np.array([1., 1., 1., 1.])
+
+        # reward = np.sum(weights * rewards)
+
+        return error_norm_reward[0] # reward
