@@ -48,6 +48,8 @@ class GeometricControllerEnv:
 
         self.sim_step = 0
 
+        self.active_controller_list = []
+
 
 
 
@@ -55,15 +57,18 @@ class GeometricControllerEnv:
 
         action = np.clip(action, 0., 1)
 
-        if action >= 0.5: # Aggressive gains
+        if action >= 0.5:  # Aggressive gains
             self.k['x'], self.k['v'], self.k['i'] = 30, 20, 30
             self.k['R'], self.k['W'], self.k['I'] = 4., 0.90, 25
             self.k['y'], self.k['wy'], self.k['yI'] = 2.5, 0.7, 6
-        else: # normal gains
+            self.active_controller = 1
+        else:  # normal gains
             self.k['x'], self.k['v'], self.k['i'] = 10, 8, 10
             self.k['R'], self.k['W'], self.k['I'] = 1.5, 0.35, 10
             self.k['y'], self.k['wy'], self.k['yI'] = 0.8, 0.15, 2
+            self.active_controller = 0
 
+        self.active_controller_list.append(self.active_controller)
 
         self.dynamics_step()
         self.sim_step += 1
@@ -127,6 +132,8 @@ class GeometricControllerEnv:
                                                                                                         18:21].T, self.X[
                                                                                                                   :,
                                                                                                                   21:24].T
+
+        self.active_controller_list = []
 
         self.sim_step = 0
 
