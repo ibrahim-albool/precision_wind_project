@@ -7,7 +7,7 @@ from .test_functions.command import command
 from .test_functions.eom import eom
 
 class GeometricControllerEnv:
-    def __init__(self):
+    def __init__(self, dynamic_randomization=False):
         self.dt = 0.01
         self.t_span = (0, 10.0 + self.dt)
         self.t = np.arange(self.t_span[0], self.t_span[1], self.dt)
@@ -46,7 +46,7 @@ class GeometricControllerEnv:
         self.e, self.d, self.R, self.f, self.M = generate_output_arrays(self.N)
         self.x, self.v, self.W, self.ei, self.eI = self.X[:, :3].T, self.X[:, 3:6].T, self.X[:, 6:9].T, self.X[:, 18:21].T, self.X[:, 21:24].T
 
-        self.sim_step = 0
+        self.counter = 0
 
         self.active_controller_list = []
 
@@ -71,10 +71,10 @@ class GeometricControllerEnv:
         self.active_controller_list.append(self.active_controller)
 
         self.dynamics_step()
-        self.sim_step += 1
+        self.counter += 1
 
     def dynamics_step(self):
-        i = self.sim_step
+        i = self.counter
         self.desired = command(self.t[i])
         self.Xdot, self.pos_ctrl_tuple = eom(self.t[i], self.X_accum, self.desired, self.k, self.param)
         self.X[i] = self.X_accum
@@ -135,6 +135,6 @@ class GeometricControllerEnv:
 
         self.active_controller_list = []
 
-        self.sim_step = 0
+        self.counter = 0
 
 

@@ -1,22 +1,24 @@
-from geometric_controller.geometric_controller_env import GeometricControllerEnv
+# from geometric_controller import GeometricControllerEnv
+from environment import Environment
 from geometric_controller.plot_data import plot_geometric_data
 
 
 def test_controller():
     
-    env = GeometricControllerEnv()
+    env = Environment()
+    env.reset()
 
+    done = False
 
-
-    for i in range(env.N):
-        if 5.5 >= env.t[i] >= 5.0:
+    while not done:
+        if 5.5 >= env.t[env.counter] >= 5.0:
             action = 1.
         else:
             action = 0.
 
         # action = 1.
 
-        env.step(action)
+        full_states, reward, done, _ = env.step(action)
     
     plot_geometric_data(env)
 
