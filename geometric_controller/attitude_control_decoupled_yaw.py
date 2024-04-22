@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.integrate import solve_ivp
 
-from geometric_controller.aux_functions.hat import hat
+from .aux_functions.hat import hat
 
 
 def attitude_control_decoupled_yaw(R, W, eI, b3d, b3d_dot, b3d_ddot, b1c, wc3, wc3_dot, k, param):

@@ -1,14 +1,14 @@
 import numpy as np
 from scipy.integrate import solve_ivp
 
-from geometric_controller.attitude_control import attitude_control
-from geometric_controller.attitude_control_decoupled_yaw import attitude_control_decoupled_yaw
-from geometric_controller.aux_functions.deriv_unit_vector import deriv_unit_vector
-from geometric_controller.aux_functions.hat import hat
-from geometric_controller.aux_functions.sat import sat
-from geometric_controller.aux_functions.satdot import satdot
-from geometric_controller.aux_functions.split_to_states import split_to_states
-from geometric_controller.aux_functions.vee import vee
+from .attitude_control import attitude_control
+from .attitude_control_decoupled_yaw import attitude_control_decoupled_yaw
+from .aux_functions.deriv_unit_vector import deriv_unit_vector
+from .aux_functions.hat import hat
+from .aux_functions.sat import sat
+from .aux_functions.satdot import satdot
+from .aux_functions.split_to_states import split_to_states
+from .aux_functions.vee import vee
 
 
 def position_control(X, desired, k, param):

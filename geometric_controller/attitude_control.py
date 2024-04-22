@@ -1,8 +1,8 @@
 import numpy as np
 from scipy.integrate import solve_ivp
 
-from geometric_controller.aux_functions.hat import hat
-from geometric_controller.aux_functions.vee import vee
+from .aux_functions.hat import hat
+from .aux_functions.vee import vee
 
 
 def attitude_control(R, W, eI, Rd, Wd, Wd_dot, k, param):

@@ -1,4 +1,4 @@
-from geometric_controller.test_functions.command_lissajous import command_lissajous
+from .command_lissajous import command_lissajous
 
 
 def command(t):

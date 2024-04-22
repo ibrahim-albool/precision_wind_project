@@ -7,8 +7,16 @@ def test_controller():
     env = GeometricControllerEnv()
 
 
+
     for i in range(env.N):
-        env.step(0.)
+        if 5.5 >= env.t[i] >= 5.0:
+            action = 1.
+        else:
+            action = 0.
+
+        # action = 1.
+
+        env.step(action)
     
     plot_geometric_data(env)
 

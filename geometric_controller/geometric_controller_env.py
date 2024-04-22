@@ -2,10 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Test controller script
-from geometric_controller.aux_functions.generate_output_arrays import generate_output_arrays
-from geometric_controller.aux_functions.plot_3x1 import plot_3x1
-from geometric_controller.test_functions.command import command
-from geometric_controller.test_functions.eom import eom
+from .aux_functions.generate_output_arrays import generate_output_arrays
+from .test_functions.command import command
+from .test_functions.eom import eom
 
 class GeometricControllerEnv:
     def __init__(self):
@@ -53,6 +52,19 @@ class GeometricControllerEnv:
 
 
     def step(self, action):
+
+        action = np.clip(action, 0., 1)
+
+        if action >= 0.5: # Aggressive gains
+            self.k['x'], self.k['v'], self.k['i'] = 30, 20, 30
+            self.k['R'], self.k['W'], self.k['I'] = 4., 0.90, 25
+            self.k['y'], self.k['wy'], self.k['yI'] = 2.5, 0.7, 6
+        else: # normal gains
+            self.k['x'], self.k['v'], self.k['i'] = 10, 8, 10
+            self.k['R'], self.k['W'], self.k['I'] = 1.5, 0.35, 10
+            self.k['y'], self.k['wy'], self.k['yI'] = 0.8, 0.15, 2
+
+
         self.dynamics_step()
         self.sim_step += 1
 
@@ -70,15 +82,7 @@ class GeometricControllerEnv:
             'R'], self.err['W'], self.err['y'], self.err['Wy']
         self.d['x'][:, i], self.d['v'][:, i], self.d['b1'][:, i], self.d['R'][:, :, i] = self.desired['x'], self.desired['v'], self.desired['b1'], self.calc['R']
 
-        # if 5.5>=t[i]>=5.0:
-        #     k['x'], k['v'], k['i'] = 30, 20, 30
-        #     k['R'], k['W'], k['I'] = 4., 0.90, 25
-        #     k['y'], k['wy'], k['yI'] = 2.5, 0.7, 6
-        # # print(t[i])
-        # else:
-        #     k['x'], k['v'], k['i'] = 10, 8, 10
-        #     k['R'], k['W'], k['I'] = 1.5, 0.35, 10
-        #     k['y'], k['wy'], k['yI'] = 0.8, 0.15, 2
+
 
 
 

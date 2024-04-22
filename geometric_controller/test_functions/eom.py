@@ -1,9 +1,9 @@
 import numpy as np
 # Define the eom function
-from geometric_controller.aux_functions.hat import hat
-from geometric_controller.aux_functions.split_to_states import split_to_states
-from geometric_controller.position_control import position_control
-from geometric_controller.test_functions.command import command
+from ..aux_functions.hat import hat
+from ..aux_functions.split_to_states import split_to_states
+from ..position_control import position_control
+# from geometric_controller.test_functions.command import command
 
 
 def eom(t, X, desired, k, param):
