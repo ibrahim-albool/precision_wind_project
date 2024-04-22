@@ -27,12 +27,13 @@ class ControlEngine:
         env.active_controller_list.append(env.active_controller)
 
         env.dynamics_step()
-        env.counter += 1
-
-        done = env.counter >= env.N
-
         full_states = self.get_full_states()
         reward = self.reward()
+
+
+
+        env.counter += 1
+        done = env.counter >= env.N
 
         # # show the plots
         # if done:
@@ -44,11 +45,15 @@ class ControlEngine:
     def get_full_states(self):
         env = self.env
 
-        states = np.array([
-            0., 0., 0.
-        ], dtype=np.float32)
+        pos_current = env.x[:, env.counter]
+        pos_error = env.e['x'][:, env.counter]
+        pos_des = env.d['x'][:, env.counter]
+        error_norm = np.array(np.linalg.norm(pos_error)).reshape(-1,)
 
-        states = np.clip(np.abs(states), 0., 5.0) / 5.
+
+        states = np.concatenate((pos_current, pos_error, pos_des, error_norm ))
+
+        # states = np.clip(np.abs(states), 0., 5.0) / 5.
 
         return states.reshape(-1, 1)
 
