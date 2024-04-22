@@ -6,7 +6,7 @@ from geometric_controller.position_control import position_control
 from geometric_controller.test_functions.command import command
 
 
-def eom(t, X, k, param):
+def eom(t, X, desired, k, param):
     e3 = np.array([0, 0, 1])
     impact_force = np.array([0., 0., 0.])
 
@@ -18,8 +18,9 @@ def eom(t, X, k, param):
     # if t>= 6.30:
     #     print("here")
 
-    desired = command(t)
-    f, M, ei_dot, eI_dot, _, _ = position_control(X, desired, k, param)
+    pos_ctrl_tuple = position_control(X, desired, k, param)
+    f, M, ei_dot, eI_dot, _, _ = pos_ctrl_tuple
+
     # f, M, ei_dot, eI_dot, _, _ = 0, (0,0,0),(0,0,0), (0,0,0) , 0, 0
 
     # adding some noises and disturbances to the dynamics
@@ -51,4 +52,4 @@ def eom(t, X, k, param):
 
     Xdot = np.concatenate([xdot, vdot, Wdot, Rdot.flatten(), ei_dot, eI_dot])
 
-    return Xdot
+    return Xdot, pos_ctrl_tuple
