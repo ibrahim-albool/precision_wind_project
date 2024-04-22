@@ -36,8 +36,8 @@ def eom(t, X, desired, k, param):
     #     f += 15
 
     # Adding impulse force between second 5 and 5.4 ( in the x direction)
-    # if 5.2>=t>=5.0:
-    #     impact_force[0] = 15.
+    if 5.2>=t>=5.0:
+        impact_force[0] = 15.
 
     # f = 18.62
 
