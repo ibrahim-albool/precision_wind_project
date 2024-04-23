@@ -15,7 +15,7 @@ class Initializer:
         state_est_size = 10
         env.observation_space = np.zeros(state_est_size)
         env.action_space = np.zeros(1)
-        env.warning_happened = False
+        env.end_episode = False
 
 
 
@@ -23,6 +23,6 @@ class Initializer:
         env = self.env
         # super(Environment, env).reset()
         env.counter = 0
-        env.warning_happened = False
+        env.end_episode = False
 
         return env.control_engine.get_full_states()

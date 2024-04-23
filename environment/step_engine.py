@@ -26,24 +26,18 @@ class ControlEngine:
 
         env.active_controller_list.append(env.active_controller)
 
-
-        try:
-            env.dynamics_step()
-        except Exception as e:
-            env.warning_happened = True
-            print('----------------------------------- Warning ----------------------------------')
+        env.dynamics_step()
         full_states = self.get_full_states()
-
         reward = self.reward()
 
-
-
         env.counter += 1
-        done = env.counter >= env.N or env.warning_happened
+        done = env.counter >= env.N or env.end_episode
 
         # # show the plots
         # if done:
         #     self.plot_curves()
+
+        # print(f"counter = {env.counter}, reward = {reward}, error_norm = {env.error_norm}")
 
         return full_states, reward, done, {}
 
@@ -61,13 +55,14 @@ class ControlEngine:
 
         # states = np.clip(np.abs(states), 0., 5.0) / 5.
 
-        return states.reshape(-1, 1)
+        return states
 
     def reward(self):
         env = self.env
 
-        if env.warning_happened:
-            return -200.
+        if env.error_norm[0] > 100.:
+            env.end_episode = True
+            return -500.
 
         # errors_reward = np.power(np.e, -10 * np.abs(env.pos_error)) - 0.5 * np.power(env.pos_error, 2)
         error_norm_reward = np.power(np.e, -10 * np.abs(env.error_norm)) - 0.5 * np.power(env.error_norm, 2)
