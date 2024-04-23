@@ -22,7 +22,7 @@ def test_controller():
         full_states, reward, done, _ = env.step(action)
         reward_list.append(reward)
         # print(f"full_states = {full_states}")
-        print(f"counter = {env.counter}, reward = {reward}, error_norm = {env.error_norm}")
+        # print(f"counter = {env.counter}, reward = {reward}, error_norm = {env.error_norm}")
 
     print(f"Non-discounted return = {sum(reward_list)}")
 

@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     model = torch.load(model)
 
-    eval_policy(model, max_traj_len=args.traj_len, visualize=True, verbose=True)
+    eval_policy(model, max_traj_len=args.traj_len, visualize=False, verbose=True)
     exit()
 
   # Options common to all RL algorithms.

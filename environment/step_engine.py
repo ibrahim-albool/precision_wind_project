@@ -1,5 +1,6 @@
 import numpy as np
 
+from geometric_controller.plot_data import plot_geometric_data
 from .env_initializer import Initializer
 
 
@@ -35,7 +36,7 @@ class ControlEngine:
 
         # # show the plots
         # if done:
-        #     self.plot_curves()
+        #     plot_geometric_data(env)
 
         # print(f"counter = {env.counter}, reward = {reward}, error_norm = {env.error_norm}")
 
