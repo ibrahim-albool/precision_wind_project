@@ -76,7 +76,7 @@ class GeometricControllerEnv:
     def dynamics_step(self):
         i = self.counter
         self.desired = command(self.t[i])
-        self.Xdot, self.pos_ctrl_tuple = eom(self.t[i], self.X_accum, self.desired, self.k, self.param)
+        self.Xdot, self.pos_ctrl_tuple = eom(self ,self.t[i], self.X_accum, self.desired, self.k, self.param)
         self.X[i] = self.X_accum
         self.X_accum += self.Xdot*self.dt
 

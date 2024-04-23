@@ -17,6 +17,16 @@ class Initializer:
         env.action_space = np.zeros(1)
         env.end_episode = False
 
+        env.impact_forces_list = np.array([[0., 0., 0.],
+                                           [15., 0., 0.],
+                                           [0., 15., 0.],
+                                           [0., 0., 15.],
+                                           [-15., 0., 0.],
+                                           [0., -15., 0.],
+                                           [0., 0., -15.]])
+        env.impact_force_index = np.random.randint(env.impact_forces_list.shape[0])
+        env.impact_force = env.impact_forces_list[env.impact_force_index]
+
 
 
     def reset(self):
@@ -24,5 +34,8 @@ class Initializer:
         # super(Environment, env).reset()
         env.counter = 0
         env.end_episode = False
+
+        env.impact_force_index = np.random.randint(env.impact_forces_list.shape[0])
+        env.impact_force = env.impact_forces_list[env.impact_force_index]
 
         return env.control_engine.get_full_states()

@@ -6,7 +6,7 @@ from ..position_control import position_control
 # from geometric_controller.test_functions.command import command
 
 
-def eom(t, X, desired, k, param):
+def eom(env, t, X, desired, k, param):
     e3 = np.array([0, 0, 1])
     impact_force = np.array([0., 0., 0.])
 
@@ -36,8 +36,9 @@ def eom(t, X, desired, k, param):
     #     f += 15
 
     # Adding impulse force between second 5 and 5.4 ( in the x direction)
-    if 5.2>=t>=5.0:
-        impact_force[0] = 15.
+    if 5.2 >= t >= 5.0:
+        # impact_force[0] = 15.
+        impact_force = env.impact_force
 
     # f = 18.62
 
