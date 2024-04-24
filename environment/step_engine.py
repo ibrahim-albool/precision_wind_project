@@ -14,6 +14,8 @@ class ControlEngine:
         # print(action)
         action = np.clip(action, 0., 1.) > 0.5
 
+        # action = 1.
+
         if action >= 0.5:  # Aggressive gains
             env.k['x'], env.k['v'], env.k['i'] = 30, 20, 30
             env.k['R'], env.k['W'], env.k['I'] = 4., 0.90, 25
@@ -27,6 +29,8 @@ class ControlEngine:
 
         env.active_controller_list.append(env.active_controller)
 
+        # if env.counter >= 500:
+        #     env.param['m'] = 1
         env.dynamics_step()
         full_states = self.get_full_states()
         reward = self.reward()
@@ -35,8 +39,9 @@ class ControlEngine:
         done = env.counter >= env.N or env.end_episode
 
         # # show the plots
-        # if done:
-        #     plot_geometric_data(env)
+        if done:
+            print(f"impact force: {env.impact_force}")
+            plot_geometric_data(env)
 
         # print(f"counter = {env.counter}, reward = {reward}, error_norm = {env.error_norm}")
 
@@ -61,7 +66,7 @@ class ControlEngine:
     def reward(self):
         env = self.env
 
-        if env.error_norm[0] > 100.:
+        if env.error_norm[0] > 20.:
             env.end_episode = True
             return -500.
 

@@ -48,20 +48,25 @@ def plot_geometric_data(geometric_controller):
     active_1 = active_controller_list == 1
     env.x = env.x[:, :env.counter]
 
-    # ax.plot3D(x_list[active_0], y_list[active_0], altitude_list[active_0], 'blue', label='UAV ctrl 0')
     ax.scatter3D(env.x[0, active_0], env.x[1, active_0], env.x[2, active_0], 'blue', label='UAV ctrl 0')
     ax.scatter3D(env.x[0, active_1], env.x[1, active_1], env.x[2, active_1], 'green', label='UAV ctrl 1')
-    #
-    # #single color
-    # # ax.plot3D(x_list, y_list, altitude_list, 'blue', label='UAV trajectory')
     ax.plot3D(env.d['x'][0], env.d['x'][1], env.d['x'][2], 'r', label='ref')
-
-    # ax.axes.set_xlim3d(left=0., right=10)
-    # ax.axes.set_ylim3d(bottom=-5., top=5.)
 
     plt.xlabel("x (m)")
     plt.ylabel("y (m)")
     plt.legend()
+
+
+    plt.figure("Active Controller")
+    plt.title("Active Controller Vs. Time", fontsize=24)
+    plt.plot(env.t, active_controller_list, label='active controller', c='blue', linewidth=2.5)
+    plt.xlabel("Time (s)", fontsize=24)
+    plt.ylabel("Active Controller (0/1)", fontsize=24)
+    # plt.legend(loc='lower right', fontsize=24)
+    plt.xticks(fontsize=20)
+    plt.yticks(fontsize=20)
+
+
 
 
 
