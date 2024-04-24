@@ -1,0 +1,12 @@
+This experiment is run on a 7 force choices it ran on the folowing configurations:
+--batch_size 64 
+--sample 50000 
+--kl 0.04 
+--prenormalize_steps 10000 
+--epochs 8 
+--timesteps 60000000 
+--discount 0.9999 
+--workers 64 
+--layers 64,64,64,64 
+--std 0.13 
+
