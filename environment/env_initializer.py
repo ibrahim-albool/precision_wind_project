@@ -28,6 +28,8 @@ class Initializer:
         # env.impact_force_index = 0
         env.impact_force = env.impact_forces_list[env.impact_force_index]
 
+        env.l2_norm_error_list = []
+
 
 
     def reset(self):
@@ -39,5 +41,7 @@ class Initializer:
         env.impact_force_index = np.random.randint(env.impact_forces_list.shape[0])
         # env.impact_force_index = 0
         env.impact_force = env.impact_forces_list[env.impact_force_index]
+
+        env.l2_norm_error_list = []
 
         return env.control_engine.get_full_states()

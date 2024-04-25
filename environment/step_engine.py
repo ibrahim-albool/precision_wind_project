@@ -35,12 +35,15 @@ class ControlEngine:
         full_states = self.get_full_states()
         reward = self.reward()
 
+        env.l2_norm_error_list.append(env.error_norm)
+
         env.counter += 1
         done = env.counter >= env.N or env.end_episode
 
         # # show the plots
         if done:
             print(f"impact force: {env.impact_force}")
+            print(f"sum l2 norm(error) = {sum(env.l2_norm_error_list)}")
             plot_geometric_data(env)
 
         # print(f"counter = {env.counter}, reward = {reward}, error_norm = {env.error_norm}")
