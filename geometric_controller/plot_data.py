@@ -38,7 +38,6 @@ def plot_geometric_data(geometric_controller):
     # plt.legend()
 
 
-
     # plot 3d
     plt.figure("3D Trajectory")
     ax = plt.axes(projection='3d')
@@ -46,7 +45,9 @@ def plot_geometric_data(geometric_controller):
     active_controller_list = np.array(geometric_controller.active_controller_list)
     active_0 = active_controller_list == 0
     active_1 = active_controller_list == 1
+    env.t = env.t[:env.counter]
     env.x = env.x[:, :env.counter]
+    env.d['x'] = env.d['x'][:, :env.counter]
 
     ax.scatter3D(env.x[0, active_0], env.x[1, active_0], env.x[2, active_0], 'blue', label='UAV ctrl 0')
     ax.scatter3D(env.x[0, active_1], env.x[1, active_1], env.x[2, active_1], 'green', label='UAV ctrl 1')
