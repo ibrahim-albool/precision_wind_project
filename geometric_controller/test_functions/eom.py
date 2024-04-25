@@ -36,8 +36,8 @@ def eom(env, t, X, desired, k, param):
     #     f += 15
 
     # Adding impulse force between second 5 and 5.4 ( in the x direction)
-    ttt = 0.
-    if 5.2 + ttt >= t >= 5.0 + ttt:
+
+    if env.impact_force_start_time <= t <= env.impact_force_start_time + env.impact_force_duration:
         # impact_force[0] = 15.
         impact_force = env.impact_force
 
