@@ -72,7 +72,7 @@ def train_normalizer(policy, min_timesteps, max_traj_len=1000, noise=0.5):
                 total_t += 1
 
 
-def eval_policy(model, env=None, episodes=5, max_traj_len=400, verbose=True, visualize=False):
+def eval_policy(model, env=None, episodes=7, max_traj_len=400, verbose=True, visualize=False):
     if env is None:
         env = env_factory(False)()
 

@@ -43,7 +43,7 @@ class ControlEngine:
         # # show the plots
         if done:
             print(f"impact force: {env.impact_force}")
-            print(f"sum l2 norm(error) = {sum(env.l2_norm_error_list)}")
+            print(f"sum l2 norm(error) = {sum(env.l2_norm_error_list)}, termination time = {env.t[env.counter-1]}")
             # print(f"l2 norm(error) = {env.l2_norm_error_list}")
             plot_geometric_data(env)
 
