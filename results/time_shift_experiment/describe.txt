@@ -1,0 +1,8 @@
+In this experiment a force of 10N is applied to the following uniformly distributed random
+- X plus
+- X minus
+- Y plus
+- Y minus
+- Z plus
+The force is applied for 200ms and the start time of applying the force is uniformly random distributed in the range:
+[2,9] seconds. Where the period of episode is 10 seconds

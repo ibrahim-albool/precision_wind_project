@@ -1,0 +1,4000 @@
+Experiment Number 1
+impact force: [  0. -10.   0.]
+L2 error norm 0.505775433687846
+Return: 602.35
+Experiment Number 2
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5167235807552659
+Return: 572.39
+Experiment Number 3
+impact force: [  0. -10.   0.]
+L2 error norm 0.5182967269711999
+Return: 567.85
+Experiment Number 4
+impact force: [  0. -10.   0.]
+L2 error norm 0.5249455246608734
+Return: 554.65
+Experiment Number 5
+impact force: [10.  0.  0.]
+L2 error norm 0.516702999554984
+Return: 566.44
+Experiment Number 6
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49952325204136083
+Return: 647.57
+Experiment Number 7
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5265500794246033
+Return: 553.11
+Experiment Number 8
+impact force: [-10.   0.   0.]
+L2 error norm 0.517736424329886
+Return: 564.42
+Experiment Number 9
+impact force: [  0. -10.   0.]
+L2 error norm 0.5056974148331767
+Return: 601.79
+Experiment Number 10
+impact force: [10.  0.  0.]
+L2 error norm 0.5167509931424502
+Return: 614.08
+Experiment Number 11
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4977147350507994
+Return: 664.92
+Experiment Number 12
+impact force: [10.  0.  0.]
+L2 error norm 0.5418663888182778
+Return: 534.12
+Experiment Number 13
+impact force: [ 0. 10.  0.]
+L2 error norm 0.511049029834957
+Return: 588.87
+Experiment Number 14
+impact force: [10.  0.  0.]
+L2 error norm 0.5101147354708238
+Return: 616.51
+Experiment Number 15
+impact force: [  0. -10.   0.]
+L2 error norm 0.5365547087293204
+Return: 528.79
+Experiment Number 16
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49828214521779296
+Return: 656.56
+Experiment Number 17
+impact force: [10.  0.  0.]
+L2 error norm 0.5156117318668536
+Return: 575.42
+Experiment Number 18
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5205730310102353
+Return: 570.94
+Experiment Number 19
+impact force: [  0. -10.   0.]
+L2 error norm 0.5014911330930214
+Return: 633.41
+Experiment Number 20
+impact force: [ 0. 10.  0.]
+L2 error norm 0.512328548898739
+Return: 621.87
+Experiment Number 21
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49890393850194553
+Return: 651.96
+Experiment Number 22
+impact force: [10.  0.  0.]
+L2 error norm 0.5093990918212092
+Return: 623.44
+Experiment Number 23
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5226621830725046
+Return: 592.39
+Experiment Number 24
+impact force: [-10.   0.   0.]
+L2 error norm 0.510140403916373
+Return: 625.47
+Experiment Number 25
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5007794056788044
+Return: 641.14
+Experiment Number 26
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5007070798341986
+Return: 641.98
+Experiment Number 27
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49805611837801894
+Return: 658.61
+Experiment Number 28
+impact force: [-10.   0.   0.]
+L2 error norm 0.513152134275061
+Return: 587.83
+Experiment Number 29
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5181804585082314
+Return: 600.84
+Experiment Number 30
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124522670710226
+Return: 599.73
+Experiment Number 31
+impact force: [  0. -10.   0.]
+L2 error norm 0.5056358011429497
+Return: 599.88
+Experiment Number 32
+impact force: [  0. -10.   0.]
+L2 error norm 0.5184483863155079
+Return: 567.95
+Experiment Number 33
+impact force: [10.  0.  0.]
+L2 error norm 0.51682477262872
+Return: 570.96
+Experiment Number 34
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5013828360318933
+Return: 639.65
+Experiment Number 35
+impact force: [-10.   0.   0.]
+L2 error norm 0.5132420970953424
+Return: 574.24
+Experiment Number 36
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5034407029384831
+Return: 613.91
+Experiment Number 37
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4984134480212769
+Return: 656.04
+Experiment Number 38
+impact force: [  0. -10.   0.]
+L2 error norm 0.5050142538519015
+Return: 631.33
+Experiment Number 39
+impact force: [-10.   0.   0.]
+L2 error norm 0.5114362199615666
+Return: 581.39
+Experiment Number 40
+impact force: [-10.   0.   0.]
+L2 error norm 0.5101019160577063
+Return: 592.44
+Experiment Number 41
+impact force: [-10.   0.   0.]
+L2 error norm 0.5114952481786492
+Return: 619.23
+Experiment Number 42
+impact force: [  0. -10.   0.]
+L2 error norm 0.5092494168614192
+Return: 589.01
+Experiment Number 43
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5009782667650922
+Return: 661.71
+Experiment Number 44
+impact force: [10.  0.  0.]
+L2 error norm 0.5209309021490437
+Return: 542.36
+Experiment Number 45
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4994878528653196
+Return: 647.75
+Experiment Number 46
+impact force: [10.  0.  0.]
+L2 error norm 0.508264401271214
+Return: 605.79
+Experiment Number 47
+impact force: [10.  0.  0.]
+L2 error norm 0.5107648287110207
+Return: 591.85
+Experiment Number 48
+impact force: [10.  0.  0.]
+L2 error norm 0.5101147354708238
+Return: 616.51
+Experiment Number 49
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4989384933097806
+Return: 649.46
+Experiment Number 50
+impact force: [-10.   0.   0.]
+L2 error norm 0.5126851252965418
+Return: 575.61
+Experiment Number 51
+impact force: [  0. -10.   0.]
+L2 error norm 0.5171753456327115
+Return: 567.84
+Experiment Number 52
+impact force: [ 0. 10.  0.]
+L2 error norm 0.508201990313358
+Return: 601.51
+Experiment Number 53
+impact force: [-10.   0.   0.]
+L2 error norm 0.5155992247326852
+Return: 571.66
+Experiment Number 54
+impact force: [-10.   0.   0.]
+L2 error norm 0.5125054812963069
+Return: 595.37
+Experiment Number 55
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5011414542185398
+Return: 629.62
+Experiment Number 56
+impact force: [ 0. 10.  0.]
+L2 error norm 0.511181257059773
+Return: 594.12
+Experiment Number 57
+impact force: [-10.   0.   0.]
+L2 error norm 0.5111117533743613
+Return: 581.40
+Experiment Number 58
+impact force: [-10.   0.   0.]
+L2 error norm 0.513856674317027
+Return: 582.77
+Experiment Number 59
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124433252488964
+Return: 599.21
+Experiment Number 60
+impact force: [-10.   0.   0.]
+L2 error norm 0.5160956491701502
+Return: 570.66
+Experiment Number 61
+impact force: [  0. -10.   0.]
+L2 error norm 0.5184517977743727
+Return: 572.71
+Experiment Number 62
+impact force: [10.  0.  0.]
+L2 error norm 0.5257726695352835
+Return: 559.54
+Experiment Number 63
+impact force: [  0. -10.   0.]
+L2 error norm 0.5092802734581706
+Return: 605.64
+Experiment Number 64
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5003892519157779
+Return: 646.11
+Experiment Number 65
+impact force: [ 0. 10.  0.]
+L2 error norm 0.512146622127451
+Return: 622.87
+Experiment Number 66
+impact force: [-10.   0.   0.]
+L2 error norm 0.5248736048598436
+Return: 549.01
+Experiment Number 67
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5216732117368604
+Return: 564.66
+Experiment Number 68
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49844543694083504
+Return: 652.13
+Experiment Number 69
+impact force: [10.  0.  0.]
+L2 error norm 0.5085301962482128
+Return: 603.40
+Experiment Number 70
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5116343409137406
+Return: 593.55
+Experiment Number 71
+impact force: [-10.   0.   0.]
+L2 error norm 0.5162626786668578
+Return: 567.82
+Experiment Number 72
+impact force: [10.  0.  0.]
+L2 error norm 0.5081443580964516
+Return: 611.51
+Experiment Number 73
+impact force: [10.  0.  0.]
+L2 error norm 0.5086825314184326
+Return: 614.97
+Experiment Number 74
+impact force: [  0. -10.   0.]
+L2 error norm 0.5060838717624151
+Return: 601.37
+Experiment Number 75
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5059100947077271
+Return: 607.73
+Experiment Number 76
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5008642516211937
+Return: 642.16
+Experiment Number 77
+impact force: [-10.   0.   0.]
+L2 error norm 0.5098730037177301
+Return: 598.78
+Experiment Number 78
+impact force: [10.  0.  0.]
+L2 error norm 0.5094242551759978
+Return: 622.36
+Experiment Number 79
+impact force: [10.  0.  0.]
+L2 error norm 0.513649019443919
+Return: 568.53
+Experiment Number 80
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5233201987167606
+Return: 542.62
+Experiment Number 81
+impact force: [  0. -10.   0.]
+L2 error norm 0.5112282525510462
+Return: 590.33
+Experiment Number 82
+impact force: [  0. -10.   0.]
+L2 error norm 0.5036537253476159
+Return: 639.43
+Experiment Number 83
+impact force: [  0. -10.   0.]
+L2 error norm 0.5201029418723482
+Return: 563.54
+Experiment Number 84
+impact force: [-10.   0.   0.]
+L2 error norm 0.514821045879014
+Return: 572.58
+Experiment Number 85
+impact force: [  0. -10.   0.]
+L2 error norm 0.5138890855928606
+Return: 581.54
+Experiment Number 86
+impact force: [10.  0.  0.]
+L2 error norm 0.5163219720193912
+Return: 567.57
+Experiment Number 87
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5121051686042811
+Return: 593.00
+Experiment Number 88
+impact force: [10.  0.  0.]
+L2 error norm 0.5281255042252764
+Return: 545.86
+Experiment Number 89
+impact force: [-10.   0.   0.]
+L2 error norm 0.5148604699686145
+Return: 577.57
+Experiment Number 90
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5007311218827456
+Return: 643.51
+Experiment Number 91
+impact force: [ 0. 10.  0.]
+L2 error norm 0.516408077390805
+Return: 566.69
+Experiment Number 92
+impact force: [-10.   0.   0.]
+L2 error norm 0.5136960058327059
+Return: 573.72
+Experiment Number 93
+impact force: [  0. -10.   0.]
+L2 error norm 0.5047523881669566
+Return: 617.73
+Experiment Number 94
+impact force: [-10.   0.   0.]
+L2 error norm 0.5097246902416532
+Return: 599.86
+Experiment Number 95
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124879413033402
+Return: 607.64
+Experiment Number 96
+impact force: [  0. -10.   0.]
+L2 error norm 0.5173054289796332
+Return: 567.69
+Experiment Number 97
+impact force: [-10.   0.   0.]
+L2 error norm 0.5114089008108209
+Return: 590.37
+Experiment Number 98
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4995278137254149
+Return: 647.43
+Experiment Number 99
+impact force: [10.  0.  0.]
+L2 error norm 0.5164135356692221
+Return: 566.91
+Experiment Number 100
+impact force: [10.  0.  0.]
+L2 error norm 0.534203172056305
+Return: 531.55
+Experiment Number 101
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49933361148221705
+Return: 649.13
+Experiment Number 102
+impact force: [  0. -10.   0.]
+L2 error norm 0.5063632553843979
+Return: 596.37
+Experiment Number 103
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4993204325098677
+Return: 648.96
+Experiment Number 104
+impact force: [10.  0.  0.]
+L2 error norm 0.5089470142861182
+Return: 628.02
+Experiment Number 105
+impact force: [-10.   0.   0.]
+L2 error norm 0.51623059395016
+Return: 567.66
+Experiment Number 106
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5283774770403118
+Return: 590.76
+Experiment Number 107
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49864968529026515
+Return: 653.18
+Experiment Number 108
+impact force: [  0. -10.   0.]
+L2 error norm 0.52410743895375
+Return: 553.19
+Experiment Number 109
+impact force: [-10.   0.   0.]
+L2 error norm 0.5140831571232506
+Return: 573.78
+Experiment Number 110
+impact force: [10.  0.  0.]
+L2 error norm 0.5285277751366837
+Return: 540.22
+Experiment Number 111
+impact force: [  0. -10.   0.]
+L2 error norm 0.5223696619166331
+Return: 557.41
+Experiment Number 112
+impact force: [  0. -10.   0.]
+L2 error norm 0.5053201584221767
+Return: 630.61
+Experiment Number 113
+impact force: [10.  0.  0.]
+L2 error norm 0.5083025119746606
+Return: 612.92
+Experiment Number 114
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4995315832365647
+Return: 647.51
+Experiment Number 115
+impact force: [  0. -10.   0.]
+L2 error norm 0.5186157318078467
+Return: 566.12
+Experiment Number 116
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5125040367414381
+Return: 593.61
+Experiment Number 117
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5198872247992178
+Return: 568.59
+Experiment Number 118
+impact force: [  0. -10.   0.]
+L2 error norm 0.5063632553843979
+Return: 596.37
+Experiment Number 119
+impact force: [  0. -10.   0.]
+L2 error norm 0.5149099566005463
+Return: 578.09
+Experiment Number 120
+impact force: [  0. -10.   0.]
+L2 error norm 0.5094962745999818
+Return: 588.22
+Experiment Number 121
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5128575973176646
+Return: 620.37
+Experiment Number 122
+impact force: [-10.   0.   0.]
+L2 error norm 0.5107333461926391
+Return: 583.57
+Experiment Number 123
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5006567810622206
+Return: 642.68
+Experiment Number 124
+impact force: [-10.   0.   0.]
+L2 error norm 0.5113353834402345
+Return: 580.55
+Experiment Number 125
+impact force: [  0. -10.   0.]
+L2 error norm 0.521551200544714
+Return: 559.58
+Experiment Number 126
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5263680683161844
+Return: 555.35
+Experiment Number 127
+impact force: [-10.   0.   0.]
+L2 error norm 0.5097072863420448
+Return: 602.90
+Experiment Number 128
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4997449016418998
+Return: 658.87
+Experiment Number 129
+impact force: [10.  0.  0.]
+L2 error norm 0.51626199483951
+Return: 577.00
+Experiment Number 130
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5109881333258487
+Return: 594.27
+Experiment Number 131
+impact force: [-10.   0.   0.]
+L2 error norm 0.510766984175619
+Return: 623.46
+Experiment Number 132
+impact force: [10.  0.  0.]
+L2 error norm 0.5167530186955206
+Return: 578.58
+Experiment Number 133
+impact force: [  0. -10.   0.]
+L2 error norm 0.5023132481844952
+Return: 628.64
+Experiment Number 134
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49888062149575807
+Return: 653.64
+Experiment Number 135
+impact force: [-10.   0.   0.]
+L2 error norm 0.5160146473185226
+Return: 570.97
+Experiment Number 136
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5201158847318856
+Return: 568.13
+Experiment Number 137
+impact force: [  0. -10.   0.]
+L2 error norm 0.523518541079953
+Return: 554.39
+Experiment Number 138
+impact force: [  0. -10.   0.]
+L2 error norm 0.5040920953104358
+Return: 637.87
+Experiment Number 139
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5213370160635643
+Return: 587.33
+Experiment Number 140
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5204805408081519
+Return: 567.35
+Experiment Number 141
+impact force: [10.  0.  0.]
+L2 error norm 0.5146296423081691
+Return: 607.11
+Experiment Number 142
+impact force: [ 0. 10.  0.]
+L2 error norm 0.519541595387013
+Return: 555.50
+Experiment Number 143
+impact force: [10.  0.  0.]
+L2 error norm 0.5082787872298435
+Return: 612.75
+Experiment Number 144
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4983458871246209
+Return: 657.62
+Experiment Number 145
+impact force: [  0. -10.   0.]
+L2 error norm 0.5168272975264461
+Return: 564.59
+Experiment Number 146
+impact force: [10.  0.  0.]
+L2 error norm 0.5095033120849607
+Return: 621.25
+Experiment Number 147
+impact force: [-10.   0.   0.]
+L2 error norm 0.5132683890960578
+Return: 574.21
+Experiment Number 148
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5086839817537507
+Return: 599.63
+Experiment Number 149
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4992217443496092
+Return: 649.97
+Experiment Number 150
+impact force: [-10.   0.   0.]
+L2 error norm 0.5097661446424957
+Return: 599.65
+Experiment Number 151
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5007366151169803
+Return: 641.57
+Experiment Number 152
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49946042347179476
+Return: 648.20
+Experiment Number 153
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5112234021901941
+Return: 592.66
+Experiment Number 154
+impact force: [  0. -10.   0.]
+L2 error norm 0.5259284125540459
+Return: 555.91
+Experiment Number 155
+impact force: [  0. -10.   0.]
+L2 error norm 0.5182967269711999
+Return: 567.85
+Experiment Number 156
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49861552942708576
+Return: 654.19
+Experiment Number 157
+impact force: [  0. -10.   0.]
+L2 error norm 0.5249455246608734
+Return: 554.65
+Experiment Number 158
+impact force: [  0. -10.   0.]
+L2 error norm 0.5068705288098492
+Return: 628.51
+Experiment Number 159
+impact force: [10.  0.  0.]
+L2 error norm 0.5094884888252702
+Return: 620.38
+Experiment Number 160
+impact force: [10.  0.  0.]
+L2 error norm 0.5187571572361129
+Return: 566.15
+Experiment Number 161
+impact force: [-10.   0.   0.]
+L2 error norm 0.5150201556561943
+Return: 579.31
+Experiment Number 162
+impact force: [  0. -10.   0.]
+L2 error norm 0.5097710928812369
+Return: 603.17
+Experiment Number 163
+impact force: [10.  0.  0.]
+L2 error norm 0.5083145469260256
+Return: 605.28
+Experiment Number 164
+impact force: [-10.   0.   0.]
+L2 error norm 0.5129875240696445
+Return: 574.69
+Experiment Number 165
+impact force: [ 0. 10.  0.]
+L2 error norm 0.518037368318005
+Return: 603.87
+Experiment Number 166
+impact force: [-10.   0.   0.]
+L2 error norm 0.5137627830191025
+Return: 573.71
+Experiment Number 167
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5193478147178588
+Return: 569.51
+Experiment Number 168
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49942390625178035
+Return: 648.46
+Experiment Number 169
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5204051892884594
+Return: 552.53
+Experiment Number 170
+impact force: [-10.   0.   0.]
+L2 error norm 0.5135650228293765
+Return: 573.83
+Experiment Number 171
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5325608114461641
+Return: 539.71
+Experiment Number 172
+impact force: [  0. -10.   0.]
+L2 error norm 0.5184201077264378
+Return: 559.53
+Experiment Number 173
+impact force: [10.  0.  0.]
+L2 error norm 0.5173229473436176
+Return: 574.51
+Experiment Number 174
+impact force: [  0. -10.   0.]
+L2 error norm 0.5159414949281158
+Return: 568.90
+Experiment Number 175
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5201357327943916
+Return: 587.88
+Experiment Number 176
+impact force: [  0. -10.   0.]
+L2 error norm 0.5105585951340099
+Return: 599.42
+Experiment Number 177
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5175856497882034
+Return: 605.66
+Experiment Number 178
+impact force: [  0. -10.   0.]
+L2 error norm 0.5165429982630884
+Return: 564.30
+Experiment Number 179
+impact force: [10.  0.  0.]
+L2 error norm 0.508288809053649
+Return: 605.54
+Experiment Number 180
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49886303012435423
+Return: 666.70
+Experiment Number 181
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4990179637887405
+Return: 650.12
+Experiment Number 182
+impact force: [10.  0.  0.]
+L2 error norm 0.5083995299248368
+Return: 604.49
+Experiment Number 183
+impact force: [  0. -10.   0.]
+L2 error norm 0.5248849009674008
+Return: 559.44
+Experiment Number 184
+impact force: [  0. -10.   0.]
+L2 error norm 0.5046241913022238
+Return: 633.86
+Experiment Number 185
+impact force: [10.  0.  0.]
+L2 error norm 0.5161355817870624
+Return: 577.73
+Experiment Number 186
+impact force: [-10.   0.   0.]
+L2 error norm 0.509462291340229
+Return: 602.04
+Experiment Number 187
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49901602104764353
+Return: 649.71
+Experiment Number 188
+impact force: [  0. -10.   0.]
+L2 error norm 0.5478371274668328
+Return: 502.89
+Experiment Number 189
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5067113562357809
+Return: 606.50
+Experiment Number 190
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4978000327340386
+Return: 666.82
+Experiment Number 191
+impact force: [ 0.  0. 10.]
+L2 error norm 0.501541051002186
+Return: 661.17
+Experiment Number 192
+impact force: [10.  0.  0.]
+L2 error norm 0.5221277149126635
+Return: 556.05
+Experiment Number 193
+impact force: [-10.   0.   0.]
+L2 error norm 0.5143461717015687
+Return: 580.00
+Experiment Number 194
+impact force: [  0. -10.   0.]
+L2 error norm 0.5071771566193911
+Return: 616.81
+Experiment Number 195
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4990179637887405
+Return: 650.12
+Experiment Number 196
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124883646871651
+Return: 607.91
+Experiment Number 197
+impact force: [-10.   0.   0.]
+L2 error norm 0.5129626740986933
+Return: 574.73
+Experiment Number 198
+impact force: [  0. -10.   0.]
+L2 error norm 0.5220822182139806
+Return: 561.05
+Experiment Number 199
+impact force: [10.  0.  0.]
+L2 error norm 0.5244329895523375
+Return: 549.32
+Experiment Number 200
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49888062149575807
+Return: 653.64
+Experiment Number 201
+impact force: [-10.   0.   0.]
+L2 error norm 0.5099500781335553
+Return: 598.42
+Experiment Number 202
+impact force: [10.  0.  0.]
+L2 error norm 0.5181563563321938
+Return: 563.66
+Experiment Number 203
+impact force: [-10.   0.   0.]
+L2 error norm 0.5094090259404186
+Return: 602.99
+Experiment Number 204
+impact force: [10.  0.  0.]
+L2 error norm 0.5097683650167878
+Return: 596.03
+Experiment Number 205
+impact force: [10.  0.  0.]
+L2 error norm 0.5247915537718928
+Return: 533.62
+Experiment Number 206
+impact force: [  0. -10.   0.]
+L2 error norm 0.5153587048812098
+Return: 583.88
+Experiment Number 207
+impact force: [  0. -10.   0.]
+L2 error norm 0.5141735968236668
+Return: 562.00
+Experiment Number 208
+impact force: [10.  0.  0.]
+L2 error norm 0.515589110382373
+Return: 568.46
+Experiment Number 209
+impact force: [  0. -10.   0.]
+L2 error norm 0.5475448012193966
+Return: 503.60
+Experiment Number 210
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5087807763617722
+Return: 595.70
+Experiment Number 211
+impact force: [  0. -10.   0.]
+L2 error norm 0.5105535666903087
+Return: 580.12
+Experiment Number 212
+impact force: [  0. -10.   0.]
+L2 error norm 0.5219053823026181
+Return: 558.72
+Experiment Number 213
+impact force: [-10.   0.   0.]
+L2 error norm 0.5138231981170313
+Return: 580.38
+Experiment Number 214
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5088975012258237
+Return: 595.26
+Experiment Number 215
+impact force: [  0. -10.   0.]
+L2 error norm 0.5157453504427928
+Return: 557.93
+Experiment Number 216
+impact force: [-10.   0.   0.]
+L2 error norm 0.5135963721315848
+Return: 573.82
+Experiment Number 217
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5221520917502444
+Return: 563.37
+Experiment Number 218
+impact force: [-10.   0.   0.]
+L2 error norm 0.5165659940353763
+Return: 566.80
+Experiment Number 219
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49844543694083504
+Return: 652.13
+Experiment Number 220
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49843520271377684
+Return: 655.83
+Experiment Number 221
+impact force: [  0. -10.   0.]
+L2 error norm 0.5054871224758543
+Return: 630.24
+Experiment Number 222
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124547728099506
+Return: 596.79
+Experiment Number 223
+impact force: [  0. -10.   0.]
+L2 error norm 0.514454040912865
+Return: 560.57
+Experiment Number 224
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5059100947077271
+Return: 607.73
+Experiment Number 225
+impact force: [-10.   0.   0.]
+L2 error norm 0.5094882075784485
+Return: 590.51
+Experiment Number 226
+impact force: [10.  0.  0.]
+L2 error norm 0.5080696697239996
+Return: 609.53
+Experiment Number 227
+impact force: [10.  0.  0.]
+L2 error norm 0.5259659606970634
+Return: 546.36
+Experiment Number 228
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49883736952217156
+Return: 652.55
+Experiment Number 229
+impact force: [-10.   0.   0.]
+L2 error norm 0.5132160881470986
+Return: 574.26
+Experiment Number 230
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5126487060311626
+Return: 620.87
+Experiment Number 231
+impact force: [10.  0.  0.]
+L2 error norm 0.5151882747749631
+Return: 578.75
+Experiment Number 232
+impact force: [-10.   0.   0.]
+L2 error norm 0.5115528772765144
+Return: 580.59
+Experiment Number 233
+impact force: [10.  0.  0.]
+L2 error norm 0.5090310227878563
+Return: 616.61
+Experiment Number 234
+impact force: [10.  0.  0.]
+L2 error norm 0.5225639329015854
+Return: 550.98
+Experiment Number 235
+impact force: [10.  0.  0.]
+L2 error norm 0.5414365783238819
+Return: 532.05
+Experiment Number 236
+impact force: [-10.   0.   0.]
+L2 error norm 0.5123384505224561
+Return: 611.10
+Experiment Number 237
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5015537734765008
+Return: 661.67
+Experiment Number 238
+impact force: [  0. -10.   0.]
+L2 error norm 0.5452983912439533
+Return: 509.95
+Experiment Number 239
+impact force: [10.  0.  0.]
+L2 error norm 0.5167318315820761
+Return: 575.82
+Experiment Number 240
+impact force: [  0. -10.   0.]
+L2 error norm 0.5183903811748379
+Return: 560.03
+Experiment Number 241
+impact force: [-10.   0.   0.]
+L2 error norm 0.5146743204399833
+Return: 578.39
+Experiment Number 242
+impact force: [10.  0.  0.]
+L2 error norm 0.5090316826082466
+Return: 599.98
+Experiment Number 243
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4982882271497217
+Return: 659.89
+Experiment Number 244
+impact force: [-10.   0.   0.]
+L2 error norm 0.5115720988710316
+Return: 587.22
+Experiment Number 245
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5216931949425756
+Return: 587.08
+Experiment Number 246
+impact force: [-10.   0.   0.]
+L2 error norm 0.5132160881470986
+Return: 574.26
+Experiment Number 247
+impact force: [  0. -10.   0.]
+L2 error norm 0.537330668955693
+Return: 530.51
+Experiment Number 248
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5041103860005682
+Return: 616.61
+Experiment Number 249
+impact force: [-10.   0.   0.]
+L2 error norm 0.5109381815331218
+Return: 622.51
+Experiment Number 250
+impact force: [10.  0.  0.]
+L2 error norm 0.5329855067359748
+Return: 538.25
+Experiment Number 251
+impact force: [  0. -10.   0.]
+L2 error norm 0.5207131466711545
+Return: 562.99
+Experiment Number 252
+impact force: [10.  0.  0.]
+L2 error norm 0.5254997229008196
+Return: 563.17
+Experiment Number 253
+impact force: [-10.   0.   0.]
+L2 error norm 0.5157729409246525
+Return: 568.92
+Experiment Number 254
+impact force: [  0. -10.   0.]
+L2 error norm 0.5163818917877628
+Return: 564.98
+Experiment Number 255
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49803075596161
+Return: 660.81
+Experiment Number 256
+impact force: [-10.   0.   0.]
+L2 error norm 0.5122997089139069
+Return: 577.12
+Experiment Number 257
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49876503107560927
+Return: 654.12
+Experiment Number 258
+impact force: [-10.   0.   0.]
+L2 error norm 0.5127930160898697
+Return: 575.15
+Experiment Number 259
+impact force: [  0. -10.   0.]
+L2 error norm 0.5443141205175323
+Return: 507.57
+Experiment Number 260
+impact force: [-10.   0.   0.]
+L2 error norm 0.5114089008108209
+Return: 590.37
+Experiment Number 261
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49883736952217156
+Return: 652.55
+Experiment Number 262
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5263045837401858
+Return: 542.21
+Experiment Number 263
+impact force: [10.  0.  0.]
+L2 error norm 0.5099800928358031
+Return: 595.05
+Experiment Number 264
+impact force: [10.  0.  0.]
+L2 error norm 0.5098475740073147
+Return: 619.03
+Experiment Number 265
+impact force: [  0. -10.   0.]
+L2 error norm 0.5205602174155808
+Return: 563.24
+Experiment Number 266
+impact force: [ 0.  0. 10.]
+L2 error norm 0.498852761616832
+Return: 667.08
+Experiment Number 267
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5119485527452378
+Return: 590.27
+Experiment Number 268
+impact force: [  0. -10.   0.]
+L2 error norm 0.5305036466022565
+Return: 540.88
+Experiment Number 269
+impact force: [  0. -10.   0.]
+L2 error norm 0.5059369937204258
+Return: 598.31
+Experiment Number 270
+impact force: [  0. -10.   0.]
+L2 error norm 0.5175657551888285
+Return: 567.38
+Experiment Number 271
+impact force: [-10.   0.   0.]
+L2 error norm 0.5101107732041128
+Return: 596.50
+Experiment Number 272
+impact force: [-10.   0.   0.]
+L2 error norm 0.5207766021516285
+Return: 564.57
+Experiment Number 273
+impact force: [10.  0.  0.]
+L2 error norm 0.5408160171439534
+Return: 532.58
+Experiment Number 274
+impact force: [-10.   0.   0.]
+L2 error norm 0.5093000137057978
+Return: 594.52
+Experiment Number 275
+impact force: [-10.   0.   0.]
+L2 error norm 0.5138231981170313
+Return: 580.38
+Experiment Number 276
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5072269609994282
+Return: 604.99
+Experiment Number 277
+impact force: [  0. -10.   0.]
+L2 error norm 0.5107183368486711
+Return: 598.68
+Experiment Number 278
+impact force: [-10.   0.   0.]
+L2 error norm 0.5101570647068634
+Return: 625.60
+Experiment Number 279
+impact force: [-10.   0.   0.]
+L2 error norm 0.5097246902416532
+Return: 599.86
+Experiment Number 280
+impact force: [-10.   0.   0.]
+L2 error norm 0.5110107796416049
+Return: 622.10
+Experiment Number 281
+impact force: [ 0. 10.  0.]
+L2 error norm 0.512169133318325
+Return: 588.92
+Experiment Number 282
+impact force: [-10.   0.   0.]
+L2 error norm 0.5114222533187076
+Return: 619.69
+Experiment Number 283
+impact force: [-10.   0.   0.]
+L2 error norm 0.5183616168801675
+Return: 562.36
+Experiment Number 284
+impact force: [  0. -10.   0.]
+L2 error norm 0.5228187258528492
+Return: 547.64
+Experiment Number 285
+impact force: [-10.   0.   0.]
+L2 error norm 0.5123249047238522
+Return: 611.38
+Experiment Number 286
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5001602526364312
+Return: 636.48
+Experiment Number 287
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5289992729674542
+Return: 535.17
+Experiment Number 288
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5179261082672342
+Return: 602.87
+Experiment Number 289
+impact force: [10.  0.  0.]
+L2 error norm 0.5094324564147013
+Return: 619.38
+Experiment Number 290
+impact force: [10.  0.  0.]
+L2 error norm 0.515589110382373
+Return: 568.46
+Experiment Number 291
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49909765932414646
+Return: 648.79
+Experiment Number 292
+impact force: [-10.   0.   0.]
+L2 error norm 0.5113882582702629
+Return: 619.89
+Experiment Number 293
+impact force: [  0. -10.   0.]
+L2 error norm 0.5219873144853786
+Return: 563.12
+Experiment Number 294
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49865521917978695
+Return: 654.70
+Experiment Number 295
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5256828135799555
+Return: 588.06
+Experiment Number 296
+impact force: [ 0. 10.  0.]
+L2 error norm 0.508957502359315
+Return: 595.14
+Experiment Number 297
+impact force: [  0. -10.   0.]
+L2 error norm 0.5089793724229423
+Return: 607.16
+Experiment Number 298
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5013252349969466
+Return: 659.68
+Experiment Number 299
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4988750557464573
+Return: 670.23
+Experiment Number 300
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5112232734906204
+Return: 591.01
+Experiment Number 301
+impact force: [-10.   0.   0.]
+L2 error norm 0.5234867127531971
+Return: 553.46
+Experiment Number 302
+impact force: [10.  0.  0.]
+L2 error norm 0.5158925881873494
+Return: 578.84
+Experiment Number 303
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5233910285510562
+Return: 585.77
+Experiment Number 304
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5134178006922971
+Return: 582.66
+Experiment Number 305
+impact force: [10.  0.  0.]
+L2 error norm 0.5287054316616099
+Return: 552.03
+Experiment Number 306
+impact force: [  0. -10.   0.]
+L2 error norm 0.5061508496347669
+Return: 601.20
+Experiment Number 307
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5059489893686325
+Return: 608.27
+Experiment Number 308
+impact force: [  0. -10.   0.]
+L2 error norm 0.5152782431030261
+Return: 559.57
+Experiment Number 309
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4984040667973213
+Return: 652.52
+Experiment Number 310
+impact force: [ 0. 10.  0.]
+L2 error norm 0.515334518677928
+Return: 596.80
+Experiment Number 311
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4977886753628495
+Return: 664.32
+Experiment Number 312
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5028571428139031
+Return: 617.71
+Experiment Number 313
+impact force: [  0. -10.   0.]
+L2 error norm 0.5039169661554803
+Return: 638.69
+Experiment Number 314
+impact force: [10.  0.  0.]
+L2 error norm 0.5178886361913752
+Return: 564.56
+Experiment Number 315
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124369660304464
+Return: 598.15
+Experiment Number 316
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5065997317363927
+Return: 604.44
+Experiment Number 317
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5201158847318856
+Return: 568.13
+Experiment Number 318
+impact force: [ 0.  0. 10.]
+L2 error norm 0.498956588970698
+Return: 651.28
+Experiment Number 319
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5099544582150246
+Return: 596.09
+Experiment Number 320
+impact force: [  0. -10.   0.]
+L2 error norm 0.506271830337375
+Return: 622.29
+Experiment Number 321
+impact force: [-10.   0.   0.]
+L2 error norm 0.515985785582894
+Return: 571.08
+Experiment Number 322
+impact force: [  0. -10.   0.]
+L2 error norm 0.5178568257194739
+Return: 549.13
+Experiment Number 323
+impact force: [-10.   0.   0.]
+L2 error norm 0.5142950970152633
+Return: 573.61
+Experiment Number 324
+impact force: [10.  0.  0.]
+L2 error norm 0.5197908363710204
+Return: 564.19
+Experiment Number 325
+impact force: [ 0. 10.  0.]
+L2 error norm 0.50528729130754
+Return: 612.42
+Experiment Number 326
+impact force: [  0. -10.   0.]
+L2 error norm 0.5092802734581706
+Return: 605.64
+Experiment Number 327
+impact force: [-10.   0.   0.]
+L2 error norm 0.5177580454707037
+Return: 570.95
+Experiment Number 328
+impact force: [-10.   0.   0.]
+L2 error norm 0.5126103635287931
+Return: 602.89
+Experiment Number 329
+impact force: [-10.   0.   0.]
+L2 error norm 0.511278421515004
+Return: 620.53
+Experiment Number 330
+impact force: [-10.   0.   0.]
+L2 error norm 0.5115528772765144
+Return: 580.59
+Experiment Number 331
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49847152433886555
+Return: 651.90
+Experiment Number 332
+impact force: [10.  0.  0.]
+L2 error norm 0.5099050110146186
+Return: 617.35
+Experiment Number 333
+impact force: [10.  0.  0.]
+L2 error norm 0.5173163326848701
+Return: 579.40
+Experiment Number 334
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124810381272336
+Return: 595.95
+Experiment Number 335
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5010750733729651
+Return: 660.82
+Experiment Number 336
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5041103860005682
+Return: 616.61
+Experiment Number 337
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5141541640029492
+Return: 578.91
+Experiment Number 338
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5262799299868665
+Return: 553.52
+Experiment Number 339
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5167101850662648
+Return: 609.50
+Experiment Number 340
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5062317427160207
+Return: 608.90
+Experiment Number 341
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5008642516211937
+Return: 642.16
+Experiment Number 342
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5235880352723066
+Return: 556.86
+Experiment Number 343
+impact force: [10.  0.  0.]
+L2 error norm 0.5317126155115969
+Return: 541.72
+Experiment Number 344
+impact force: [  0. -10.   0.]
+L2 error norm 0.5044560231333627
+Return: 632.62
+Experiment Number 345
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5055396894267677
+Return: 610.48
+Experiment Number 346
+impact force: [10.  0.  0.]
+L2 error norm 0.5101353209574837
+Return: 594.38
+Experiment Number 347
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5165348854358883
+Return: 610.03
+Experiment Number 348
+impact force: [ 0. 10.  0.]
+L2 error norm 0.519416039342872
+Return: 569.42
+Experiment Number 349
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4988722898409481
+Return: 652.33
+Experiment Number 350
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5119448175103402
+Return: 587.77
+Experiment Number 351
+impact force: [10.  0.  0.]
+L2 error norm 0.5161355817870624
+Return: 577.73
+Experiment Number 352
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49923781563967445
+Return: 648.43
+Experiment Number 353
+impact force: [-10.   0.   0.]
+L2 error norm 0.514251368807747
+Return: 573.65
+Experiment Number 354
+impact force: [-10.   0.   0.]
+L2 error norm 0.5110962172783458
+Return: 581.41
+Experiment Number 355
+impact force: [  0. -10.   0.]
+L2 error norm 0.5190766820232637
+Return: 569.22
+Experiment Number 356
+impact force: [  0. -10.   0.]
+L2 error norm 0.5169127626764946
+Return: 553.09
+Experiment Number 357
+impact force: [10.  0.  0.]
+L2 error norm 0.508891393701868
+Return: 600.85
+Experiment Number 358
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5153112567279661
+Return: 574.41
+Experiment Number 359
+impact force: [-10.   0.   0.]
+L2 error norm 0.509595315811251
+Return: 603.02
+Experiment Number 360
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4995315832365647
+Return: 647.51
+Experiment Number 361
+impact force: [ 0.  0. 10.]
+L2 error norm 0.498782354390476
+Return: 653.57
+Experiment Number 362
+impact force: [  0. -10.   0.]
+L2 error norm 0.5017536087939773
+Return: 631.61
+Experiment Number 363
+impact force: [  0. -10.   0.]
+L2 error norm 0.5037486042242226
+Return: 639.26
+Experiment Number 364
+impact force: [-10.   0.   0.]
+L2 error norm 0.5122813809301783
+Return: 612.18
+Experiment Number 365
+impact force: [ 0.  0. 10.]
+L2 error norm 0.500604762562063
+Return: 645.54
+Experiment Number 366
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5080447020607475
+Return: 598.15
+Experiment Number 367
+impact force: [-10.   0.   0.]
+L2 error norm 0.5139207534725181
+Return: 582.37
+Experiment Number 368
+impact force: [  0. -10.   0.]
+L2 error norm 0.5036346584453539
+Return: 639.49
+Experiment Number 369
+impact force: [10.  0.  0.]
+L2 error norm 0.5094025358195193
+Return: 625.07
+Experiment Number 370
+impact force: [-10.   0.   0.]
+L2 error norm 0.5158676781085676
+Return: 571.40
+Experiment Number 371
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5235607725068515
+Return: 541.94
+Experiment Number 372
+impact force: [  0. -10.   0.]
+L2 error norm 0.5222274248935758
+Return: 548.50
+Experiment Number 373
+impact force: [-10.   0.   0.]
+L2 error norm 0.5092360536712371
+Return: 592.30
+Experiment Number 374
+impact force: [-10.   0.   0.]
+L2 error norm 0.5134443648978859
+Return: 585.52
+Experiment Number 375
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5212655483084563
+Return: 563.85
+Experiment Number 376
+impact force: [10.  0.  0.]
+L2 error norm 0.5092233694100398
+Return: 617.66
+Experiment Number 377
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5205730310102353
+Return: 570.94
+Experiment Number 378
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49891676472582724
+Return: 653.28
+Experiment Number 379
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5005547247846861
+Return: 661.28
+Experiment Number 380
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5226905395985753
+Return: 541.22
+Experiment Number 381
+impact force: [10.  0.  0.]
+L2 error norm 0.5090316826082466
+Return: 599.98
+Experiment Number 382
+impact force: [  0. -10.   0.]
+L2 error norm 0.5162934523964849
+Return: 580.38
+Experiment Number 383
+impact force: [10.  0.  0.]
+L2 error norm 0.5165401151748271
+Return: 577.15
+Experiment Number 384
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5200063625413592
+Return: 566.80
+Experiment Number 385
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5003555108534944
+Return: 645.21
+Experiment Number 386
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5226905395985753
+Return: 541.22
+Experiment Number 387
+impact force: [  0. -10.   0.]
+L2 error norm 0.5298724855904816
+Return: 542.03
+Experiment Number 388
+impact force: [-10.   0.   0.]
+L2 error norm 0.5095293370687045
+Return: 601.35
+Experiment Number 389
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5208541798031415
+Return: 566.51
+Experiment Number 390
+impact force: [10.  0.  0.]
+L2 error norm 0.5158592588998002
+Return: 561.40
+Experiment Number 391
+impact force: [-10.   0.   0.]
+L2 error norm 0.5122997089139069
+Return: 577.12
+Experiment Number 392
+impact force: [ 0.  0. 10.]
+L2 error norm 0.501442036224504
+Return: 627.26
+Experiment Number 393
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124792030962281
+Return: 600.78
+Experiment Number 394
+impact force: [10.  0.  0.]
+L2 error norm 0.5146979050326582
+Return: 607.35
+Experiment Number 395
+impact force: [  0. -10.   0.]
+L2 error norm 0.5185351380122938
+Return: 567.24
+Experiment Number 396
+impact force: [-10.   0.   0.]
+L2 error norm 0.5119020979372888
+Return: 578.47
+Experiment Number 397
+impact force: [ 0.  0. 10.]
+L2 error norm 0.498590377688567
+Return: 653.69
+Experiment Number 398
+impact force: [  0. -10.   0.]
+L2 error norm 0.5061184629179151
+Return: 623.37
+Experiment Number 399
+impact force: [  0. -10.   0.]
+L2 error norm 0.5502661545564219
+Return: 503.11
+Experiment Number 400
+impact force: [  0. -10.   0.]
+L2 error norm 0.5248849009674008
+Return: 559.44
+Experiment Number 401
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4985253847392888
+Return: 655.76
+Experiment Number 402
+impact force: [10.  0.  0.]
+L2 error norm 0.5165071290450323
+Return: 576.88
+Experiment Number 403
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124874211421636
+Return: 601.04
+Experiment Number 404
+impact force: [10.  0.  0.]
+L2 error norm 0.5155244273417566
+Return: 558.30
+Experiment Number 405
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5046735591463902
+Return: 613.46
+Experiment Number 406
+impact force: [-10.   0.   0.]
+L2 error norm 0.5151491824654038
+Return: 572.19
+Experiment Number 407
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5075772804816314
+Return: 600.18
+Experiment Number 408
+impact force: [-10.   0.   0.]
+L2 error norm 0.5107271512919966
+Return: 589.25
+Experiment Number 409
+impact force: [10.  0.  0.]
+L2 error norm 0.5168241241104383
+Return: 614.05
+Experiment Number 410
+impact force: [  0. -10.   0.]
+L2 error norm 0.5181392599697395
+Return: 548.44
+Experiment Number 411
+impact force: [-10.   0.   0.]
+L2 error norm 0.5091872017852951
+Return: 592.74
+Experiment Number 412
+impact force: [-10.   0.   0.]
+L2 error norm 0.5100477484016729
+Return: 597.50
+Experiment Number 413
+impact force: [ 0.  0. 10.]
+L2 error norm 0.503717976685042
+Return: 612.74
+Experiment Number 414
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5043617898065695
+Return: 617.67
+Experiment Number 415
+impact force: [-10.   0.   0.]
+L2 error norm 0.51174852221147
+Return: 617.51
+Experiment Number 416
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4986897789587554
+Return: 650.12
+Experiment Number 417
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4990850335579621
+Return: 651.42
+Experiment Number 418
+impact force: [-10.   0.   0.]
+L2 error norm 0.5095629682061175
+Return: 603.05
+Experiment Number 419
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5181019025122797
+Return: 604.39
+Experiment Number 420
+impact force: [  0. -10.   0.]
+L2 error norm 0.5055389396666455
+Return: 601.53
+Experiment Number 421
+impact force: [-10.   0.   0.]
+L2 error norm 0.5264877314754146
+Return: 547.50
+Experiment Number 422
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4990176208626407
+Return: 658.14
+Experiment Number 423
+impact force: [10.  0.  0.]
+L2 error norm 0.5167496926473885
+Return: 576.56
+Experiment Number 424
+impact force: [-10.   0.   0.]
+L2 error norm 0.5133219365603617
+Return: 574.17
+Experiment Number 425
+impact force: [ 0.  0. 10.]
+L2 error norm 0.501442036224504
+Return: 627.26
+Experiment Number 426
+impact force: [ 0.  0. 10.]
+L2 error norm 0.498600735854744
+Return: 653.77
+Experiment Number 427
+impact force: [  0. -10.   0.]
+L2 error norm 0.5207545457356612
+Return: 548.96
+Experiment Number 428
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5132448511436107
+Return: 586.68
+Experiment Number 429
+impact force: [  0. -10.   0.]
+L2 error norm 0.518037756995606
+Return: 574.35
+Experiment Number 430
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5013693118787887
+Return: 659.60
+Experiment Number 431
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5011716010806161
+Return: 641.49
+Experiment Number 432
+impact force: [  0. -10.   0.]
+L2 error norm 0.5215727109856761
+Return: 544.88
+Experiment Number 433
+impact force: [-10.   0.   0.]
+L2 error norm 0.5118211829383551
+Return: 616.96
+Experiment Number 434
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5087807763617722
+Return: 595.70
+Experiment Number 435
+impact force: [-10.   0.   0.]
+L2 error norm 0.5136924194117661
+Return: 573.11
+Experiment Number 436
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5011817099398873
+Return: 659.83
+Experiment Number 437
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4995436682399012
+Return: 647.43
+Experiment Number 438
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4983184387086481
+Return: 656.82
+Experiment Number 439
+impact force: [  0. -10.   0.]
+L2 error norm 0.5167850454317133
+Return: 568.30
+Experiment Number 440
+impact force: [10.  0.  0.]
+L2 error norm 0.5189957423779125
+Return: 566.97
+Experiment Number 441
+impact force: [10.  0.  0.]
+L2 error norm 0.5163627784285438
+Return: 577.33
+Experiment Number 442
+impact force: [-10.   0.   0.]
+L2 error norm 0.5218904224210513
+Return: 556.97
+Experiment Number 443
+impact force: [-10.   0.   0.]
+L2 error norm 0.5128448065349183
+Return: 575.02
+Experiment Number 444
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49953440907390984
+Return: 647.38
+Experiment Number 445
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5177240574142341
+Return: 593.82
+Experiment Number 446
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5080495825427399
+Return: 601.76
+Experiment Number 447
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49901869324760356
+Return: 651.58
+Experiment Number 448
+impact force: [10.  0.  0.]
+L2 error norm 0.5169317981658578
+Return: 565.29
+Experiment Number 449
+impact force: [ 0.  0. 10.]
+L2 error norm 0.499358283555424
+Return: 648.94
+Experiment Number 450
+impact force: [10.  0.  0.]
+L2 error norm 0.5103020826259107
+Return: 593.68
+Experiment Number 451
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4987121911373471
+Return: 655.19
+Experiment Number 452
+impact force: [10.  0.  0.]
+L2 error norm 0.531516251611504
+Return: 532.27
+Experiment Number 453
+impact force: [  0. -10.   0.]
+L2 error norm 0.5037327194184616
+Return: 635.84
+Experiment Number 454
+impact force: [  0. -10.   0.]
+L2 error norm 0.519695640619503
+Return: 567.87
+Experiment Number 455
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5243131398417722
+Return: 538.82
+Experiment Number 456
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5016844667851036
+Return: 659.44
+Experiment Number 457
+impact force: [-10.   0.   0.]
+L2 error norm 0.5099249384377247
+Return: 598.61
+Experiment Number 458
+impact force: [-10.   0.   0.]
+L2 error norm 0.515486512451219
+Return: 571.85
+Experiment Number 459
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5271516623224362
+Return: 540.96
+Experiment Number 460
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4990114732928822
+Return: 650.33
+Experiment Number 461
+impact force: [ 0. 10.  0.]
+L2 error norm 0.512309279653931
+Return: 588.50
+Experiment Number 462
+impact force: [10.  0.  0.]
+L2 error norm 0.5211505965603032
+Return: 573.90
+Experiment Number 463
+impact force: [  0. -10.   0.]
+L2 error norm 0.5135851661143991
+Return: 582.67
+Experiment Number 464
+impact force: [-10.   0.   0.]
+L2 error norm 0.5101791434095818
+Return: 625.62
+Experiment Number 465
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5121370880104725
+Return: 622.49
+Experiment Number 466
+impact force: [  0. -10.   0.]
+L2 error norm 0.5037493449139955
+Return: 635.72
+Experiment Number 467
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5220709523380502
+Return: 586.54
+Experiment Number 468
+impact force: [-10.   0.   0.]
+L2 error norm 0.5094882075784485
+Return: 590.51
+Experiment Number 469
+impact force: [10.  0.  0.]
+L2 error norm 0.5304582634886227
+Return: 541.99
+Experiment Number 470
+impact force: [10.  0.  0.]
+L2 error norm 0.5173784651259274
+Return: 616.09
+Experiment Number 471
+impact force: [  0. -10.   0.]
+L2 error norm 0.518037756995606
+Return: 574.35
+Experiment Number 472
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4990008428073534
+Return: 650.56
+Experiment Number 473
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4997449016418998
+Return: 658.87
+Experiment Number 474
+impact force: [  0. -10.   0.]
+L2 error norm 0.5160648654002342
+Return: 581.69
+Experiment Number 475
+impact force: [  0. -10.   0.]
+L2 error norm 0.5056431683582274
+Return: 601.54
+Experiment Number 476
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5125697408260504
+Return: 582.24
+Experiment Number 477
+impact force: [  0. -10.   0.]
+L2 error norm 0.5182503943962055
+Return: 567.86
+Experiment Number 478
+impact force: [10.  0.  0.]
+L2 error norm 0.5094025358195193
+Return: 625.07
+Experiment Number 479
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5041208544804844
+Return: 616.53
+Experiment Number 480
+impact force: [10.  0.  0.]
+L2 error norm 0.539984004193061
+Return: 537.78
+Experiment Number 481
+impact force: [-10.   0.   0.]
+L2 error norm 0.513794239134709
+Return: 583.16
+Experiment Number 482
+impact force: [  0. -10.   0.]
+L2 error norm 0.5077360471784693
+Return: 594.37
+Experiment Number 483
+impact force: [  0. -10.   0.]
+L2 error norm 0.5036088778354203
+Return: 639.41
+Experiment Number 484
+impact force: [10.  0.  0.]
+L2 error norm 0.5158058123595526
+Return: 607.15
+Experiment Number 485
+impact force: [10.  0.  0.]
+L2 error norm 0.5178886361913752
+Return: 564.56
+Experiment Number 486
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5162172326527112
+Return: 595.59
+Experiment Number 487
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5006643064997661
+Return: 644.81
+Experiment Number 488
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49839084594870914
+Return: 652.67
+Experiment Number 489
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5196830737060821
+Return: 588.53
+Experiment Number 490
+impact force: [  0. -10.   0.]
+L2 error norm 0.5213319653682789
+Return: 545.95
+Experiment Number 491
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4986820402703517
+Return: 652.90
+Experiment Number 492
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49784970178448384
+Return: 665.85
+Experiment Number 493
+impact force: [10.  0.  0.]
+L2 error norm 0.5159646632345849
+Return: 567.73
+Experiment Number 494
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5089882683085925
+Return: 599.31
+Experiment Number 495
+impact force: [10.  0.  0.]
+L2 error norm 0.5164592852396029
+Return: 578.98
+Experiment Number 496
+impact force: [10.  0.  0.]
+L2 error norm 0.5146296423081691
+Return: 607.11
+Experiment Number 497
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4987685623071982
+Return: 656.10
+Experiment Number 498
+impact force: [  0. -10.   0.]
+L2 error norm 0.5210245706640971
+Return: 562.47
+Experiment Number 499
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5130400838782905
+Return: 583.30
+Experiment Number 500
+impact force: [-10.   0.   0.]
+L2 error norm 0.515420421442124
+Return: 570.70
+Experiment Number 501
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4984127523954567
+Return: 652.46
+Experiment Number 502
+impact force: [  0. -10.   0.]
+L2 error norm 0.5069592154702023
+Return: 617.99
+Experiment Number 503
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124523313503279
+Return: 576.58
+Experiment Number 504
+impact force: [  0. -10.   0.]
+L2 error norm 0.5240933621514793
+Return: 544.98
+Experiment Number 505
+impact force: [10.  0.  0.]
+L2 error norm 0.5149299591542986
+Return: 578.54
+Experiment Number 506
+impact force: [10.  0.  0.]
+L2 error norm 0.5098479725889488
+Return: 619.44
+Experiment Number 507
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5034407029384831
+Return: 613.91
+Experiment Number 508
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5289992729674542
+Return: 535.17
+Experiment Number 509
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4990895626475018
+Return: 651.68
+Experiment Number 510
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49863747201830755
+Return: 650.70
+Experiment Number 511
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5007005400710645
+Return: 643.81
+Experiment Number 512
+impact force: [10.  0.  0.]
+L2 error norm 0.5322824855572045
+Return: 535.22
+Experiment Number 513
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5132448511436107
+Return: 586.68
+Experiment Number 514
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5093478759905482
+Return: 598.09
+Experiment Number 515
+impact force: [-10.   0.   0.]
+L2 error norm 0.5132282014474794
+Return: 582.63
+Experiment Number 516
+impact force: [10.  0.  0.]
+L2 error norm 0.5095031923806443
+Return: 621.43
+Experiment Number 517
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5014940009821939
+Return: 659.41
+Experiment Number 518
+impact force: [  0. -10.   0.]
+L2 error norm 0.5249689149814614
+Return: 543.90
+Experiment Number 519
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5261411531295778
+Return: 555.06
+Experiment Number 520
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5150097623695066
+Return: 615.62
+Experiment Number 521
+impact force: [-10.   0.   0.]
+L2 error norm 0.5091987896536609
+Return: 594.62
+Experiment Number 522
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4994212122104327
+Return: 648.15
+Experiment Number 523
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4988155213905991
+Return: 654.17
+Experiment Number 524
+impact force: [10.  0.  0.]
+L2 error norm 0.5185993383795358
+Return: 562.31
+Experiment Number 525
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5004089355286442
+Return: 645.76
+Experiment Number 526
+impact force: [-10.   0.   0.]
+L2 error norm 0.5111615883786872
+Return: 621.22
+Experiment Number 527
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5201264738087233
+Return: 587.99
+Experiment Number 528
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5275329342066963
+Return: 549.10
+Experiment Number 529
+impact force: [  0. -10.   0.]
+L2 error norm 0.5268244358228087
+Return: 541.18
+Experiment Number 530
+impact force: [-10.   0.   0.]
+L2 error norm 0.52018393493604
+Return: 563.03
+Experiment Number 531
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5182493833372085
+Return: 602.98
+Experiment Number 532
+impact force: [ 0. 10.  0.]
+L2 error norm 0.511874028335915
+Return: 583.88
+Experiment Number 533
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4988290365554378
+Return: 652.49
+Experiment Number 534
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5121307782580643
+Return: 622.68
+Experiment Number 535
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5262803641123553
+Return: 555.06
+Experiment Number 536
+impact force: [-10.   0.   0.]
+L2 error norm 0.5099147532227906
+Return: 598.74
+Experiment Number 537
+impact force: [  0. -10.   0.]
+L2 error norm 0.5066017694738609
+Return: 620.05
+Experiment Number 538
+impact force: [  0. -10.   0.]
+L2 error norm 0.5163386203557405
+Return: 568.34
+Experiment Number 539
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4984935686203938
+Return: 651.73
+Experiment Number 540
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5041671132614604
+Return: 616.51
+Experiment Number 541
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4993004768715438
+Return: 646.62
+Experiment Number 542
+impact force: [10.  0.  0.]
+L2 error norm 0.5099068722650656
+Return: 595.38
+Experiment Number 543
+impact force: [-10.   0.   0.]
+L2 error norm 0.5217265575902306
+Return: 558.17
+Experiment Number 544
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5003969474404905
+Return: 646.05
+Experiment Number 545
+impact force: [  0. -10.   0.]
+L2 error norm 0.5097686950497237
+Return: 583.48
+Experiment Number 546
+impact force: [  0. -10.   0.]
+L2 error norm 0.5074343164517627
+Return: 615.37
+Experiment Number 547
+impact force: [  0. -10.   0.]
+L2 error norm 0.5077203135025753
+Return: 591.65
+Experiment Number 548
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5206512455488265
+Return: 569.95
+Experiment Number 549
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5041647275237914
+Return: 617.31
+Experiment Number 550
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5108914509327964
+Return: 591.74
+Experiment Number 551
+impact force: [10.  0.  0.]
+L2 error norm 0.5156008878939478
+Return: 557.60
+Experiment Number 552
+impact force: [  0. -10.   0.]
+L2 error norm 0.5152370540550283
+Return: 578.35
+Experiment Number 553
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4994381410740679
+Return: 648.02
+Experiment Number 554
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49798501785615923
+Return: 661.33
+Experiment Number 555
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5014999648761753
+Return: 663.11
+Experiment Number 556
+impact force: [10.  0.  0.]
+L2 error norm 0.5169344156185721
+Return: 566.10
+Experiment Number 557
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5046628468431633
+Return: 613.57
+Experiment Number 558
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124761892826637
+Return: 605.39
+Experiment Number 559
+impact force: [-10.   0.   0.]
+L2 error norm 0.5111898243775093
+Return: 591.86
+Experiment Number 560
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49888062149575807
+Return: 653.64
+Experiment Number 561
+impact force: [10.  0.  0.]
+L2 error norm 0.5098705786268246
+Return: 620.07
+Experiment Number 562
+impact force: [-10.   0.   0.]
+L2 error norm 0.51174852221147
+Return: 617.51
+Experiment Number 563
+impact force: [-10.   0.   0.]
+L2 error norm 0.5154362310378258
+Return: 572.04
+Experiment Number 564
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124761892826637
+Return: 605.39
+Experiment Number 565
+impact force: [  0. -10.   0.]
+L2 error norm 0.5175533073664185
+Return: 576.15
+Experiment Number 566
+impact force: [  0. -10.   0.]
+L2 error norm 0.5047405647487688
+Return: 632.04
+Experiment Number 567
+impact force: [10.  0.  0.]
+L2 error norm 0.5175276135832532
+Return: 621.69
+Experiment Number 568
+impact force: [  0. -10.   0.]
+L2 error norm 0.5117148652057248
+Return: 580.31
+Experiment Number 569
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5214523769245679
+Return: 565.22
+Experiment Number 570
+impact force: [10.  0.  0.]
+L2 error norm 0.5092707460003671
+Return: 617.97
+Experiment Number 571
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5040815150653655
+Return: 617.42
+Experiment Number 572
+impact force: [-10.   0.   0.]
+L2 error norm 0.5122271603706531
+Return: 612.99
+Experiment Number 573
+impact force: [-10.   0.   0.]
+L2 error norm 0.512438075580163
+Return: 598.68
+Experiment Number 574
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5137047831833611
+Return: 594.50
+Experiment Number 575
+impact force: [-10.   0.   0.]
+L2 error norm 0.5136091688088211
+Return: 584.35
+Experiment Number 576
+impact force: [-10.   0.   0.]
+L2 error norm 0.5102157396538536
+Return: 625.25
+Experiment Number 577
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4991920988356723
+Return: 645.10
+Experiment Number 578
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5121307782580643
+Return: 622.68
+Experiment Number 579
+impact force: [-10.   0.   0.]
+L2 error norm 0.5106857451683435
+Return: 583.67
+Experiment Number 580
+impact force: [10.  0.  0.]
+L2 error norm 0.517928975518404
+Return: 562.85
+Experiment Number 581
+impact force: [10.  0.  0.]
+L2 error norm 0.5159406208562193
+Return: 555.86
+Experiment Number 582
+impact force: [-10.   0.   0.]
+L2 error norm 0.5105629908304082
+Return: 583.78
+Experiment Number 583
+impact force: [-10.   0.   0.]
+L2 error norm 0.5149304791110185
+Return: 571.70
+Experiment Number 584
+impact force: [ 0.  0. 10.]
+L2 error norm 0.500329217260964
+Return: 634.95
+Experiment Number 585
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5108132286482415
+Return: 588.28
+Experiment Number 586
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4986124189066706
+Return: 670.17
+Experiment Number 587
+impact force: [-10.   0.   0.]
+L2 error norm 0.5158765881269214
+Return: 568.71
+Experiment Number 588
+impact force: [10.  0.  0.]
+L2 error norm 0.5197026023407479
+Return: 564.12
+Experiment Number 589
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5051670204401345
+Return: 611.03
+Experiment Number 590
+impact force: [-10.   0.   0.]
+L2 error norm 0.5144384975577275
+Return: 573.26
+Experiment Number 591
+impact force: [-10.   0.   0.]
+L2 error norm 0.5134682420387633
+Return: 573.98
+Experiment Number 592
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124883646871651
+Return: 607.91
+Experiment Number 593
+impact force: [  0. -10.   0.]
+L2 error norm 0.505442450943902
+Return: 601.45
+Experiment Number 594
+impact force: [  0. -10.   0.]
+L2 error norm 0.5189079540406553
+Return: 558.14
+Experiment Number 595
+impact force: [-10.   0.   0.]
+L2 error norm 0.5115528772765144
+Return: 580.59
+Experiment Number 596
+impact force: [10.  0.  0.]
+L2 error norm 0.5101084236865011
+Return: 615.90
+Experiment Number 597
+impact force: [  0. -10.   0.]
+L2 error norm 0.5074478782758506
+Return: 595.52
+Experiment Number 598
+impact force: [-10.   0.   0.]
+L2 error norm 0.5128150514686496
+Return: 577.31
+Experiment Number 599
+impact force: [-10.   0.   0.]
+L2 error norm 0.5126363504580226
+Return: 593.22
+Experiment Number 600
+impact force: [-10.   0.   0.]
+L2 error norm 0.5131081414973765
+Return: 588.21
+Experiment Number 601
+impact force: [-10.   0.   0.]
+L2 error norm 0.5101084111701545
+Return: 625.68
+Experiment Number 602
+impact force: [10.  0.  0.]
+L2 error norm 0.5206956204188293
+Return: 560.57
+Experiment Number 603
+impact force: [-10.   0.   0.]
+L2 error norm 0.5161965517962633
+Return: 570.41
+Experiment Number 604
+impact force: [-10.   0.   0.]
+L2 error norm 0.5130640989218145
+Return: 574.52
+Experiment Number 605
+impact force: [10.  0.  0.]
+L2 error norm 0.5099800928358031
+Return: 595.05
+Experiment Number 606
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4977125223535392
+Return: 668.39
+Experiment Number 607
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5117705033474438
+Return: 588.75
+Experiment Number 608
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5077674046876378
+Return: 599.48
+Experiment Number 609
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49859784948505587
+Return: 650.92
+Experiment Number 610
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5178152912719818
+Return: 604.46
+Experiment Number 611
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49902029249612184
+Return: 649.93
+Experiment Number 612
+impact force: [-10.   0.   0.]
+L2 error norm 0.5147014615727155
+Return: 572.07
+Experiment Number 613
+impact force: [  0. -10.   0.]
+L2 error norm 0.5252891472419919
+Return: 545.07
+Experiment Number 614
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5037563356225765
+Return: 628.66
+Experiment Number 615
+impact force: [  0. -10.   0.]
+L2 error norm 0.505308960460912
+Return: 628.99
+Experiment Number 616
+impact force: [  0. -10.   0.]
+L2 error norm 0.507902346262734
+Return: 604.04
+Experiment Number 617
+impact force: [  0. -10.   0.]
+L2 error norm 0.5253175856574094
+Return: 557.92
+Experiment Number 618
+impact force: [-10.   0.   0.]
+L2 error norm 0.5093790058176365
+Return: 602.94
+Experiment Number 619
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5182341442749793
+Return: 603.01
+Experiment Number 620
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5175012009773178
+Return: 605.63
+Experiment Number 621
+impact force: [10.  0.  0.]
+L2 error norm 0.5256989517374991
+Return: 559.90
+Experiment Number 622
+impact force: [  0. -10.   0.]
+L2 error norm 0.5221499623090989
+Return: 548.42
+Experiment Number 623
+impact force: [10.  0.  0.]
+L2 error norm 0.5084359909861101
+Return: 613.74
+Experiment Number 624
+impact force: [10.  0.  0.]
+L2 error norm 0.5169063869823736
+Return: 614.78
+Experiment Number 625
+impact force: [10.  0.  0.]
+L2 error norm 0.5173506723589066
+Return: 565.45
+Experiment Number 626
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5014999648761753
+Return: 663.11
+Experiment Number 627
+impact force: [  0. -10.   0.]
+L2 error norm 0.510079430498978
+Return: 581.90
+Experiment Number 628
+impact force: [  0. -10.   0.]
+L2 error norm 0.5112282525510462
+Return: 590.33
+Experiment Number 629
+impact force: [10.  0.  0.]
+L2 error norm 0.5159395529997127
+Return: 574.07
+Experiment Number 630
+impact force: [-10.   0.   0.]
+L2 error norm 0.5108298019135473
+Return: 583.32
+Experiment Number 631
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5181488213366313
+Return: 603.72
+Experiment Number 632
+impact force: [ 0. 10.  0.]
+L2 error norm 0.512169133318325
+Return: 588.92
+Experiment Number 633
+impact force: [  0. -10.   0.]
+L2 error norm 0.5042005869584432
+Return: 633.53
+Experiment Number 634
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5041208544804844
+Return: 616.53
+Experiment Number 635
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4987362346610664
+Return: 669.60
+Experiment Number 636
+impact force: [  0. -10.   0.]
+L2 error norm 0.505308960460912
+Return: 628.99
+Experiment Number 637
+impact force: [10.  0.  0.]
+L2 error norm 0.5101353209574837
+Return: 594.38
+Experiment Number 638
+impact force: [  0. -10.   0.]
+L2 error norm 0.5238381413547865
+Return: 547.95
+Experiment Number 639
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5215315290811632
+Return: 587.22
+Experiment Number 640
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5003730389326516
+Return: 646.22
+Experiment Number 641
+impact force: [10.  0.  0.]
+L2 error norm 0.5159438581620344
+Return: 555.88
+Experiment Number 642
+impact force: [-10.   0.   0.]
+L2 error norm 0.5101791434095818
+Return: 625.62
+Experiment Number 643
+impact force: [ 0. 10.  0.]
+L2 error norm 0.532101149213444
+Return: 540.65
+Experiment Number 644
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5237553751780039
+Return: 588.23
+Experiment Number 645
+impact force: [  0. -10.   0.]
+L2 error norm 0.5185296042789933
+Return: 548.04
+Experiment Number 646
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5005316182332067
+Return: 643.18
+Experiment Number 647
+impact force: [10.  0.  0.]
+L2 error norm 0.5153867862579226
+Return: 606.44
+Experiment Number 648
+impact force: [  0. -10.   0.]
+L2 error norm 0.5188818501061425
+Return: 565.77
+Experiment Number 649
+impact force: [-10.   0.   0.]
+L2 error norm 0.517736424329886
+Return: 564.42
+Experiment Number 650
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5003874582456539
+Return: 646.08
+Experiment Number 651
+impact force: [10.  0.  0.]
+L2 error norm 0.5388999283585555
+Return: 524.45
+Experiment Number 652
+impact force: [-10.   0.   0.]
+L2 error norm 0.5094388108364521
+Return: 602.50
+Experiment Number 653
+impact force: [  0. -10.   0.]
+L2 error norm 0.5208681975762819
+Return: 562.74
+Experiment Number 654
+impact force: [10.  0.  0.]
+L2 error norm 0.5080705798789027
+Return: 609.32
+Experiment Number 655
+impact force: [10.  0.  0.]
+L2 error norm 0.5152312093936638
+Return: 579.46
+Experiment Number 656
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49867830323160484
+Return: 653.03
+Experiment Number 657
+impact force: [-10.   0.   0.]
+L2 error norm 0.5136357733631011
+Return: 575.20
+Experiment Number 658
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4989502502863802
+Return: 649.45
+Experiment Number 659
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5042431003694179
+Return: 618.85
+Experiment Number 660
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5130133325979712
+Return: 597.67
+Experiment Number 661
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4987362346610664
+Return: 669.60
+Experiment Number 662
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5241288673440407
+Return: 540.83
+Experiment Number 663
+impact force: [10.  0.  0.]
+L2 error norm 0.5189302371060174
+Return: 564.73
+Experiment Number 664
+impact force: [-10.   0.   0.]
+L2 error norm 0.510047514029137
+Return: 597.37
+Experiment Number 665
+impact force: [-10.   0.   0.]
+L2 error norm 0.5101207354598086
+Return: 596.70
+Experiment Number 666
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5072269609994282
+Return: 604.99
+Experiment Number 667
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5081859065871196
+Return: 597.68
+Experiment Number 668
+impact force: [10.  0.  0.]
+L2 error norm 0.5095031923806443
+Return: 621.43
+Experiment Number 669
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5057569770457897
+Return: 608.55
+Experiment Number 670
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5002591502201044
+Return: 647.47
+Experiment Number 671
+impact force: [ 0.  0. 10.]
+L2 error norm 0.500803575588814
+Return: 660.24
+Experiment Number 672
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5149712298480003
+Return: 615.76
+Experiment Number 673
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5150873495986991
+Return: 615.40
+Experiment Number 674
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5140104901829909
+Return: 588.68
+Experiment Number 675
+impact force: [-10.   0.   0.]
+L2 error norm 0.5118211829383551
+Return: 616.96
+Experiment Number 676
+impact force: [  0. -10.   0.]
+L2 error norm 0.5244811606676906
+Return: 555.48
+Experiment Number 677
+impact force: [-10.   0.   0.]
+L2 error norm 0.5251985690037514
+Return: 548.81
+Experiment Number 678
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4998965636943013
+Return: 664.35
+Experiment Number 679
+impact force: [10.  0.  0.]
+L2 error norm 0.5161590088246136
+Return: 609.60
+Experiment Number 680
+impact force: [ 0.  0. 10.]
+L2 error norm 0.504194935545772
+Return: 626.62
+Experiment Number 681
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5178059726664195
+Return: 602.39
+Experiment Number 682
+impact force: [  0. -10.   0.]
+L2 error norm 0.5168803888403195
+Return: 578.52
+Experiment Number 683
+impact force: [  0. -10.   0.]
+L2 error norm 0.5308847895765536
+Return: 539.79
+Experiment Number 684
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5194946968087805
+Return: 569.30
+Experiment Number 685
+impact force: [-10.   0.   0.]
+L2 error norm 0.5110098257245943
+Return: 588.13
+Experiment Number 686
+impact force: [  0. -10.   0.]
+L2 error norm 0.5178265562499234
+Return: 567.08
+Experiment Number 687
+impact force: [-10.   0.   0.]
+L2 error norm 0.5113882582702629
+Return: 619.89
+Experiment Number 688
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5182227747458539
+Return: 603.14
+Experiment Number 689
+impact force: [10.  0.  0.]
+L2 error norm 0.5198625390516651
+Return: 564.44
+Experiment Number 690
+impact force: [10.  0.  0.]
+L2 error norm 0.5148189865097409
+Return: 569.25
+Experiment Number 691
+impact force: [-10.   0.   0.]
+L2 error norm 0.5188673279746899
+Return: 561.25
+Experiment Number 692
+impact force: [10.  0.  0.]
+L2 error norm 0.5163219720193912
+Return: 567.57
+Experiment Number 693
+impact force: [  0. -10.   0.]
+L2 error norm 0.5218582097018633
+Return: 561.51
+Experiment Number 694
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5043062045645194
+Return: 616.17
+Experiment Number 695
+impact force: [10.  0.  0.]
+L2 error norm 0.5155667330813187
+Return: 606.87
+Experiment Number 696
+impact force: [10.  0.  0.]
+L2 error norm 0.5299926386304885
+Return: 540.46
+Experiment Number 697
+impact force: [-10.   0.   0.]
+L2 error norm 0.510482330804909
+Return: 590.69
+Experiment Number 698
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124557808936654
+Return: 584.71
+Experiment Number 699
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124369660304464
+Return: 598.15
+Experiment Number 700
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4979910524337493
+Return: 663.79
+Experiment Number 701
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5014537031203524
+Return: 659.47
+Experiment Number 702
+impact force: [  0. -10.   0.]
+L2 error norm 0.5061184629179151
+Return: 623.37
+Experiment Number 703
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5049910415938671
+Return: 614.66
+Experiment Number 704
+impact force: [-10.   0.   0.]
+L2 error norm 0.5157985258670549
+Return: 567.28
+Experiment Number 705
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49847486306943817
+Return: 654.84
+Experiment Number 706
+impact force: [10.  0.  0.]
+L2 error norm 0.5085868470669345
+Return: 614.52
+Experiment Number 707
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4983907184507551
+Return: 657.18
+Experiment Number 708
+impact force: [  0. -10.   0.]
+L2 error norm 0.5025943380601867
+Return: 627.40
+Experiment Number 709
+impact force: [-10.   0.   0.]
+L2 error norm 0.5094644728018789
+Return: 595.47
+Experiment Number 710
+impact force: [ 0.  0. 10.]
+L2 error norm 0.500767754554192
+Return: 632.54
+Experiment Number 711
+impact force: [10.  0.  0.]
+L2 error norm 0.5150820391918823
+Return: 563.90
+Experiment Number 712
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5226506484225687
+Return: 586.97
+Experiment Number 713
+impact force: [-10.   0.   0.]
+L2 error norm 0.5205860084123702
+Return: 564.40
+Experiment Number 714
+impact force: [  0. -10.   0.]
+L2 error norm 0.5048070903144355
+Return: 631.85
+Experiment Number 715
+impact force: [10.  0.  0.]
+L2 error norm 0.508524864277106
+Return: 614.21
+Experiment Number 716
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5173446399755892
+Return: 563.54
+Experiment Number 717
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5009782667650922
+Return: 661.71
+Experiment Number 718
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5211000881794758
+Return: 565.94
+Experiment Number 719
+impact force: [  0. -10.   0.]
+L2 error norm 0.5064520810345158
+Return: 628.71
+Experiment Number 720
+impact force: [-10.   0.   0.]
+L2 error norm 0.5130241785022928
+Return: 588.97
+Experiment Number 721
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5095761485452174
+Return: 592.18
+Experiment Number 722
+impact force: [-10.   0.   0.]
+L2 error norm 0.5121369890426516
+Return: 577.64
+Experiment Number 723
+impact force: [10.  0.  0.]
+L2 error norm 0.5292869248806377
+Return: 555.78
+Experiment Number 724
+impact force: [10.  0.  0.]
+L2 error norm 0.519542576906184
+Return: 564.22
+Experiment Number 725
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5181133261901458
+Return: 604.67
+Experiment Number 726
+impact force: [10.  0.  0.]
+L2 error norm 0.5169317981658578
+Return: 565.29
+Experiment Number 727
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49773954691921996
+Return: 667.96
+Experiment Number 728
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124439167601006
+Return: 597.34
+Experiment Number 729
+impact force: [  0. -10.   0.]
+L2 error norm 0.5135076891009581
+Return: 566.37
+Experiment Number 730
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5195796274918366
+Return: 562.93
+Experiment Number 731
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5002413541185072
+Return: 635.73
+Experiment Number 732
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5008972836817527
+Return: 661.83
+Experiment Number 733
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49808453574702505
+Return: 661.46
+Experiment Number 734
+impact force: [-10.   0.   0.]
+L2 error norm 0.5213514192830139
+Return: 562.87
+Experiment Number 735
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5068709843085498
+Return: 605.81
+Experiment Number 736
+impact force: [  0. -10.   0.]
+L2 error norm 0.5220674151906372
+Return: 548.36
+Experiment Number 737
+impact force: [10.  0.  0.]
+L2 error norm 0.5189908266350401
+Return: 565.33
+Experiment Number 738
+impact force: [10.  0.  0.]
+L2 error norm 0.5198625390516651
+Return: 564.44
+Experiment Number 739
+impact force: [  0. -10.   0.]
+L2 error norm 0.5098123294419102
+Return: 595.94
+Experiment Number 740
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5216705042728006
+Return: 557.51
+Experiment Number 741
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4995278137254149
+Return: 647.43
+Experiment Number 742
+impact force: [-10.   0.   0.]
+L2 error norm 0.5116170624473734
+Return: 618.46
+Experiment Number 743
+impact force: [  0. -10.   0.]
+L2 error norm 0.5109206065489249
+Return: 591.90
+Experiment Number 744
+impact force: [10.  0.  0.]
+L2 error norm 0.5143678457024428
+Return: 607.48
+Experiment Number 745
+impact force: [  0. -10.   0.]
+L2 error norm 0.5168272975264461
+Return: 564.59
+Experiment Number 746
+impact force: [10.  0.  0.]
+L2 error norm 0.5167496926473885
+Return: 576.56
+Experiment Number 747
+impact force: [10.  0.  0.]
+L2 error norm 0.5155283466230207
+Return: 568.58
+Experiment Number 748
+impact force: [10.  0.  0.]
+L2 error norm 0.5080981782601951
+Return: 608.21
+Experiment Number 749
+impact force: [  0. -10.   0.]
+L2 error norm 0.5042435012306298
+Return: 637.08
+Experiment Number 750
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49893209663116994
+Return: 651.61
+Experiment Number 751
+impact force: [10.  0.  0.]
+L2 error norm 0.5156732682379862
+Return: 568.30
+Experiment Number 752
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5229782593930402
+Return: 544.09
+Experiment Number 753
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5236471093802704
+Return: 541.77
+Experiment Number 754
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5011260667972485
+Return: 642.66
+Experiment Number 755
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5041946784183666
+Return: 616.14
+Experiment Number 756
+impact force: [-10.   0.   0.]
+L2 error norm 0.5095877660897367
+Return: 600.95
+Experiment Number 757
+impact force: [  0. -10.   0.]
+L2 error norm 0.5196961299588673
+Return: 564.59
+Experiment Number 758
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5045766960284496
+Return: 614.09
+Experiment Number 759
+impact force: [ 0.  0. 10.]
+L2 error norm 0.499911599883143
+Return: 638.20
+Experiment Number 760
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5216732117368604
+Return: 564.66
+Experiment Number 761
+impact force: [  0. -10.   0.]
+L2 error norm 0.509926864237899
+Return: 602.42
+Experiment Number 762
+impact force: [ 0. 10.  0.]
+L2 error norm 0.50528729130754
+Return: 612.42
+Experiment Number 763
+impact force: [  0. -10.   0.]
+L2 error norm 0.5038772598952005
+Return: 638.89
+Experiment Number 764
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5006742218117815
+Return: 642.30
+Experiment Number 765
+impact force: [  0. -10.   0.]
+L2 error norm 0.506222145114956
+Return: 596.99
+Experiment Number 766
+impact force: [10.  0.  0.]
+L2 error norm 0.5171150207903163
+Return: 565.98
+Experiment Number 767
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4980998393108992
+Return: 661.61
+Experiment Number 768
+impact force: [ 0. 10.  0.]
+L2 error norm 0.520604958504754
+Return: 567.08
+Experiment Number 769
+impact force: [10.  0.  0.]
+L2 error norm 0.5151094167171308
+Return: 578.62
+Experiment Number 770
+impact force: [-10.   0.   0.]
+L2 error norm 0.5102133081571785
+Return: 625.38
+Experiment Number 771
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5257267164048581
+Return: 554.86
+Experiment Number 772
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4984134480212769
+Return: 656.04
+Experiment Number 773
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49902215965427155
+Return: 652.29
+Experiment Number 774
+impact force: [-10.   0.   0.]
+L2 error norm 0.5098921856416075
+Return: 598.97
+Experiment Number 775
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4989184653404952
+Return: 651.78
+Experiment Number 776
+impact force: [-10.   0.   0.]
+L2 error norm 0.5265997433317278
+Return: 549.14
+Experiment Number 777
+impact force: [  0. -10.   0.]
+L2 error norm 0.5071213767836671
+Return: 594.00
+Experiment Number 778
+impact force: [-10.   0.   0.]
+L2 error norm 0.514890265057719
+Return: 571.13
+Experiment Number 779
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5182189673823134
+Return: 603.16
+Experiment Number 780
+impact force: [  0. -10.   0.]
+L2 error norm 0.5092494168614192
+Return: 589.01
+Experiment Number 781
+impact force: [10.  0.  0.]
+L2 error norm 0.5136826384831105
+Return: 568.34
+Experiment Number 782
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5088387936821174
+Return: 595.46
+Experiment Number 783
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4991906635272408
+Return: 650.22
+Experiment Number 784
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5148523624216097
+Return: 575.69
+Experiment Number 785
+impact force: [10.  0.  0.]
+L2 error norm 0.5350540679210515
+Return: 531.35
+Experiment Number 786
+impact force: [-10.   0.   0.]
+L2 error norm 0.5175123367924145
+Return: 565.19
+Experiment Number 787
+impact force: [10.  0.  0.]
+L2 error norm 0.5165844935028742
+Return: 566.63
+Experiment Number 788
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49771659830210735
+Return: 668.26
+Experiment Number 789
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4992516181293059
+Return: 649.75
+Experiment Number 790
+impact force: [10.  0.  0.]
+L2 error norm 0.5081082753820216
+Return: 607.98
+Experiment Number 791
+impact force: [10.  0.  0.]
+L2 error norm 0.5319248859489822
+Return: 536.97
+Experiment Number 792
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5257483228500839
+Return: 555.38
+Experiment Number 793
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5216931949425756
+Return: 587.08
+Experiment Number 794
+impact force: [-10.   0.   0.]
+L2 error norm 0.5152754763282702
+Return: 575.86
+Experiment Number 795
+impact force: [10.  0.  0.]
+L2 error norm 0.5080895973230168
+Return: 608.43
+Experiment Number 796
+impact force: [-10.   0.   0.]
+L2 error norm 0.5122574746415581
+Return: 577.21
+Experiment Number 797
+impact force: [10.  0.  0.]
+L2 error norm 0.5176700479151426
+Return: 621.93
+Experiment Number 798
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124761892826637
+Return: 605.39
+Experiment Number 799
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5001998938088019
+Return: 655.50
+Experiment Number 800
+impact force: [10.  0.  0.]
+L2 error norm 0.5082142589207999
+Return: 612.23
+Experiment Number 801
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5293660731779256
+Return: 545.88
+Experiment Number 802
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5208694029341833
+Return: 551.00
+Experiment Number 803
+impact force: [-10.   0.   0.]
+L2 error norm 0.5099428185299423
+Return: 598.73
+Experiment Number 804
+impact force: [-10.   0.   0.]
+L2 error norm 0.515707192773413
+Return: 571.35
+Experiment Number 805
+impact force: [ 0. 10.  0.]
+L2 error norm 0.532101149213444
+Return: 540.65
+Experiment Number 806
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49877873182303634
+Return: 654.54
+Experiment Number 807
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5017971011783355
+Return: 637.59
+Experiment Number 808
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4988485884745812
+Return: 652.55
+Experiment Number 809
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4988335750393996
+Return: 648.63
+Experiment Number 810
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5007809366794252
+Return: 641.47
+Experiment Number 811
+impact force: [10.  0.  0.]
+L2 error norm 0.530847980389684
+Return: 531.29
+Experiment Number 812
+impact force: [10.  0.  0.]
+L2 error norm 0.5299221475225986
+Return: 554.36
+Experiment Number 813
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5125040367414381
+Return: 593.61
+Experiment Number 814
+impact force: [-10.   0.   0.]
+L2 error norm 0.5104012184725287
+Return: 624.80
+Experiment Number 815
+impact force: [-10.   0.   0.]
+L2 error norm 0.515985785582894
+Return: 571.08
+Experiment Number 816
+impact force: [  0. -10.   0.]
+L2 error norm 0.5054992837206987
+Return: 600.62
+Experiment Number 817
+impact force: [-10.   0.   0.]
+L2 error norm 0.509401834840764
+Return: 602.96
+Experiment Number 818
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5007135835638447
+Return: 641.86
+Experiment Number 819
+impact force: [-10.   0.   0.]
+L2 error norm 0.5127142077141559
+Return: 592.22
+Experiment Number 820
+impact force: [-10.   0.   0.]
+L2 error norm 0.5097633048704935
+Return: 594.26
+Experiment Number 821
+impact force: [-10.   0.   0.]
+L2 error norm 0.5191742509928507
+Return: 560.80
+Experiment Number 822
+impact force: [-10.   0.   0.]
+L2 error norm 0.5137977772321275
+Return: 573.69
+Experiment Number 823
+impact force: [10.  0.  0.]
+L2 error norm 0.5319248859489822
+Return: 536.97
+Experiment Number 824
+impact force: [-10.   0.   0.]
+L2 error norm 0.5158676781085676
+Return: 571.40
+Experiment Number 825
+impact force: [  0. -10.   0.]
+L2 error norm 0.509099441757959
+Return: 599.24
+Experiment Number 826
+impact force: [-10.   0.   0.]
+L2 error norm 0.5128956139060468
+Return: 574.91
+Experiment Number 827
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4985404597586084
+Return: 651.39
+Experiment Number 828
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5136905535474975
+Return: 595.50
+Experiment Number 829
+impact force: [  0. -10.   0.]
+L2 error norm 0.5179572513405213
+Return: 566.92
+Experiment Number 830
+impact force: [10.  0.  0.]
+L2 error norm 0.5180182723472198
+Return: 578.98
+Experiment Number 831
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5043624110927395
+Return: 618.28
+Experiment Number 832
+impact force: [10.  0.  0.]
+L2 error norm 0.5190744886232405
+Return: 566.13
+Experiment Number 833
+impact force: [  0. -10.   0.]
+L2 error norm 0.5036178484788333
+Return: 639.53
+Experiment Number 834
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5130400838782905
+Return: 583.30
+Experiment Number 835
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5220709523380502
+Return: 586.54
+Experiment Number 836
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5157812744743069
+Return: 596.16
+Experiment Number 837
+impact force: [10.  0.  0.]
+L2 error norm 0.5137566446336175
+Return: 568.14
+Experiment Number 838
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4982800704521434
+Return: 657.35
+Experiment Number 839
+impact force: [-10.   0.   0.]
+L2 error norm 0.5099723682228311
+Return: 593.14
+Experiment Number 840
+impact force: [  0. -10.   0.]
+L2 error norm 0.5070516744263586
+Return: 617.52
+Experiment Number 841
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4999474749651105
+Return: 657.44
+Experiment Number 842
+impact force: [10.  0.  0.]
+L2 error norm 0.5080702962726605
+Return: 609.74
+Experiment Number 843
+impact force: [10.  0.  0.]
+L2 error norm 0.5132935633130028
+Return: 571.20
+Experiment Number 844
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4994034566696447
+Return: 648.61
+Experiment Number 845
+impact force: [  0. -10.   0.]
+L2 error norm 0.5144638782926294
+Return: 580.06
+Experiment Number 846
+impact force: [ 0. 10.  0.]
+L2 error norm 0.518077650567639
+Return: 560.73
+Experiment Number 847
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5046735591463902
+Return: 613.46
+Experiment Number 848
+impact force: [10.  0.  0.]
+L2 error norm 0.5098639981663344
+Return: 619.95
+Experiment Number 849
+impact force: [10.  0.  0.]
+L2 error norm 0.5151482306278321
+Return: 578.68
+Experiment Number 850
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5006643064997661
+Return: 644.81
+Experiment Number 851
+impact force: [10.  0.  0.]
+L2 error norm 0.5092929644640478
+Return: 618.12
+Experiment Number 852
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5142211289818488
+Return: 587.12
+Experiment Number 853
+impact force: [10.  0.  0.]
+L2 error norm 0.5166434486601296
+Return: 612.73
+Experiment Number 854
+impact force: [  0. -10.   0.]
+L2 error norm 0.5219798361024326
+Return: 548.30
+Experiment Number 855
+impact force: [  0. -10.   0.]
+L2 error norm 0.5220822182139806
+Return: 561.05
+Experiment Number 856
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49808453574702505
+Return: 661.46
+Experiment Number 857
+impact force: [10.  0.  0.]
+L2 error norm 0.5138950520747056
+Return: 583.14
+Experiment Number 858
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4986014824356988
+Return: 654.39
+Experiment Number 859
+impact force: [  0. -10.   0.]
+L2 error norm 0.5056358011429497
+Return: 599.88
+Experiment Number 860
+impact force: [10.  0.  0.]
+L2 error norm 0.5093986875080457
+Return: 623.37
+Experiment Number 861
+impact force: [-10.   0.   0.]
+L2 error norm 0.5126080863515838
+Return: 575.82
+Experiment Number 862
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5089010686135425
+Return: 594.91
+Experiment Number 863
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5046372469207743
+Return: 616.49
+Experiment Number 864
+impact force: [  0. -10.   0.]
+L2 error norm 0.5073145910622353
+Return: 596.05
+Experiment Number 865
+impact force: [-10.   0.   0.]
+L2 error norm 0.510230098638833
+Return: 625.64
+Experiment Number 866
+impact force: [10.  0.  0.]
+L2 error norm 0.525364306912857
+Return: 548.36
+Experiment Number 867
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49934260557846705
+Return: 648.78
+Experiment Number 868
+impact force: [  0. -10.   0.]
+L2 error norm 0.5185351380122938
+Return: 567.24
+Experiment Number 869
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4984799562073937
+Return: 656.32
+Experiment Number 870
+impact force: [-10.   0.   0.]
+L2 error norm 0.5109027039285957
+Return: 622.71
+Experiment Number 871
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124433252488964
+Return: 599.21
+Experiment Number 872
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5215645586331771
+Return: 564.94
+Experiment Number 873
+impact force: [  0. -10.   0.]
+L2 error norm 0.5189079540406553
+Return: 558.14
+Experiment Number 874
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124486986628166
+Return: 597.06
+Experiment Number 875
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49901964838391605
+Return: 650.02
+Experiment Number 876
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5121370880104725
+Return: 622.49
+Experiment Number 877
+impact force: [-10.   0.   0.]
+L2 error norm 0.5135173842307579
+Return: 575.31
+Experiment Number 878
+impact force: [10.  0.  0.]
+L2 error norm 0.5174428543307521
+Return: 565.31
+Experiment Number 879
+impact force: [10.  0.  0.]
+L2 error norm 0.5225907610443021
+Return: 555.10
+Experiment Number 880
+impact force: [-10.   0.   0.]
+L2 error norm 0.5264877314754146
+Return: 547.50
+Experiment Number 881
+impact force: [-10.   0.   0.]
+L2 error norm 0.5175563475915264
+Return: 572.71
+Experiment Number 882
+impact force: [10.  0.  0.]
+L2 error norm 0.5098623035524477
+Return: 621.04
+Experiment Number 883
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5127031661652595
+Return: 593.49
+Experiment Number 884
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5204866251884982
+Return: 571.10
+Experiment Number 885
+impact force: [-10.   0.   0.]
+L2 error norm 0.5100842756995826
+Return: 596.76
+Experiment Number 886
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5238296296207425
+Return: 542.96
+Experiment Number 887
+impact force: [10.  0.  0.]
+L2 error norm 0.5088273826760507
+Return: 628.33
+Experiment Number 888
+impact force: [  0. -10.   0.]
+L2 error norm 0.5047049077485584
+Return: 633.23
+Experiment Number 889
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5242900419646614
+Return: 541.57
+Experiment Number 890
+impact force: [  0. -10.   0.]
+L2 error norm 0.5036696857056877
+Return: 639.50
+Experiment Number 891
+impact force: [10.  0.  0.]
+L2 error norm 0.5154665929628929
+Return: 568.72
+Experiment Number 892
+impact force: [  0. -10.   0.]
+L2 error norm 0.5025943380601867
+Return: 627.40
+Experiment Number 893
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5225085639535415
+Return: 562.19
+Experiment Number 894
+impact force: [  0. -10.   0.]
+L2 error norm 0.5070471034466337
+Return: 597.32
+Experiment Number 895
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49850804961964573
+Return: 651.63
+Experiment Number 896
+impact force: [  0. -10.   0.]
+L2 error norm 0.5024047873854134
+Return: 628.23
+Experiment Number 897
+impact force: [  0. -10.   0.]
+L2 error norm 0.5158098594735939
+Return: 569.09
+Experiment Number 898
+impact force: [10.  0.  0.]
+L2 error norm 0.5162799972409305
+Return: 610.14
+Experiment Number 899
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49909375523179705
+Return: 651.60
+Experiment Number 900
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5225085639535415
+Return: 562.19
+Experiment Number 901
+impact force: [-10.   0.   0.]
+L2 error norm 0.5093269093007283
+Return: 603.12
+Experiment Number 902
+impact force: [-10.   0.   0.]
+L2 error norm 0.5212995749818758
+Return: 560.68
+Experiment Number 903
+impact force: [10.  0.  0.]
+L2 error norm 0.5094190454968687
+Return: 619.22
+Experiment Number 904
+impact force: [  0. -10.   0.]
+L2 error norm 0.5047405647487688
+Return: 632.04
+Experiment Number 905
+impact force: [ 0. 10.  0.]
+L2 error norm 0.517736313481111
+Return: 602.15
+Experiment Number 906
+impact force: [-10.   0.   0.]
+L2 error norm 0.5094820682038
+Return: 601.86
+Experiment Number 907
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49870091967976365
+Return: 668.54
+Experiment Number 908
+impact force: [  0. -10.   0.]
+L2 error norm 0.5210245706640971
+Return: 562.47
+Experiment Number 909
+impact force: [-10.   0.   0.]
+L2 error norm 0.5135039481173971
+Return: 573.87
+Experiment Number 910
+impact force: [  0. -10.   0.]
+L2 error norm 0.5057425832059662
+Return: 599.23
+Experiment Number 911
+impact force: [10.  0.  0.]
+L2 error norm 0.5098538255335289
+Return: 619.69
+Experiment Number 912
+impact force: [  0. -10.   0.]
+L2 error norm 0.5149099566005463
+Return: 578.09
+Experiment Number 913
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5239336606892828
+Return: 542.05
+Experiment Number 914
+impact force: [  0. -10.   0.]
+L2 error norm 0.5344569239431867
+Return: 530.52
+Experiment Number 915
+impact force: [ 0.  0. 10.]
+L2 error norm 0.501694208727687
+Return: 637.82
+Experiment Number 916
+impact force: [  0. -10.   0.]
+L2 error norm 0.5264869475025269
+Return: 548.11
+Experiment Number 917
+impact force: [10.  0.  0.]
+L2 error norm 0.5377519396961764
+Return: 536.62
+Experiment Number 918
+impact force: [10.  0.  0.]
+L2 error norm 0.5261542169214725
+Return: 547.90
+Experiment Number 919
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4985557901025491
+Return: 656.69
+Experiment Number 920
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5044486574555295
+Return: 617.54
+Experiment Number 921
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5008972836817527
+Return: 661.83
+Experiment Number 922
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5203990183869849
+Return: 587.28
+Experiment Number 923
+impact force: [ 0. 10.  0.]
+L2 error norm 0.507347787093446
+Return: 603.67
+Experiment Number 924
+impact force: [10.  0.  0.]
+L2 error norm 0.5191515825210643
+Return: 581.16
+Experiment Number 925
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5263045837401858
+Return: 542.21
+Experiment Number 926
+impact force: [ 0. 10.  0.]
+L2 error norm 0.522353420517002
+Return: 586.47
+Experiment Number 927
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4995395984117664
+Return: 641.72
+Experiment Number 928
+impact force: [10.  0.  0.]
+L2 error norm 0.5165401151748271
+Return: 577.15
+Experiment Number 929
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5179765530482919
+Return: 603.13
+Experiment Number 930
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5044763967963795
+Return: 614.82
+Experiment Number 931
+impact force: [  0. -10.   0.]
+L2 error norm 0.5107183368486711
+Return: 598.68
+Experiment Number 932
+impact force: [-10.   0.   0.]
+L2 error norm 0.5133219365603617
+Return: 574.17
+Experiment Number 933
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4984631851411985
+Return: 655.75
+Experiment Number 934
+impact force: [-10.   0.   0.]
+L2 error norm 0.5114388018751905
+Return: 580.15
+Experiment Number 935
+impact force: [  0. -10.   0.]
+L2 error norm 0.518037756995606
+Return: 574.35
+Experiment Number 936
+impact force: [10.  0.  0.]
+L2 error norm 0.5170129946230358
+Return: 615.42
+Experiment Number 937
+impact force: [10.  0.  0.]
+L2 error norm 0.5133822471550608
+Return: 571.38
+Experiment Number 938
+impact force: [-10.   0.   0.]
+L2 error norm 0.5112392021782304
+Return: 620.76
+Experiment Number 939
+impact force: [  0. -10.   0.]
+L2 error norm 0.5171993364261214
+Return: 562.35
+Experiment Number 940
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4987048396248272
+Return: 654.99
+Experiment Number 941
+impact force: [  0. -10.   0.]
+L2 error norm 0.5223696619166331
+Return: 557.41
+Experiment Number 942
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4995383875481465
+Return: 647.47
+Experiment Number 943
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49915841766363855
+Return: 650.47
+Experiment Number 944
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4990184725980012
+Return: 649.78
+Experiment Number 945
+impact force: [  0. -10.   0.]
+L2 error norm 0.5150986417820452
+Return: 578.47
+Experiment Number 946
+impact force: [  0. -10.   0.]
+L2 error norm 0.5334774318921874
+Return: 537.86
+Experiment Number 947
+impact force: [10.  0.  0.]
+L2 error norm 0.5100175945797416
+Return: 617.45
+Experiment Number 948
+impact force: [  0. -10.   0.]
+L2 error norm 0.5175449741488887
+Return: 575.69
+Experiment Number 949
+impact force: [  0. -10.   0.]
+L2 error norm 0.5199810624236414
+Return: 557.71
+Experiment Number 950
+impact force: [-10.   0.   0.]
+L2 error norm 0.5149156901881233
+Return: 572.47
+Experiment Number 951
+impact force: [ 0. 10.  0.]
+L2 error norm 0.511874028335915
+Return: 583.88
+Experiment Number 952
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5087807763617722
+Return: 595.70
+Experiment Number 953
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5182189673823134
+Return: 603.16
+Experiment Number 954
+impact force: [ 0. 10.  0.]
+L2 error norm 0.508358900818996
+Return: 597.10
+Experiment Number 955
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5031218791970669
+Return: 616.16
+Experiment Number 956
+impact force: [-10.   0.   0.]
+L2 error norm 0.5129207367798192
+Return: 574.85
+Experiment Number 957
+impact force: [-10.   0.   0.]
+L2 error norm 0.5100800696617321
+Return: 597.45
+Experiment Number 958
+impact force: [-10.   0.   0.]
+L2 error norm 0.5123422260216376
+Return: 610.88
+Experiment Number 959
+impact force: [10.  0.  0.]
+L2 error norm 0.5092707460003671
+Return: 617.97
+Experiment Number 960
+impact force: [  0. -10.   0.]
+L2 error norm 0.5068705288098492
+Return: 628.51
+Experiment Number 961
+impact force: [-10.   0.   0.]
+L2 error norm 0.5129875240696445
+Return: 574.69
+Experiment Number 962
+impact force: [  0. -10.   0.]
+L2 error norm 0.533298275891894
+Return: 531.71
+Experiment Number 963
+impact force: [  0. -10.   0.]
+L2 error norm 0.5207545457356612
+Return: 548.96
+Experiment Number 964
+impact force: [-10.   0.   0.]
+L2 error norm 0.5157247283253283
+Return: 571.41
+Experiment Number 965
+impact force: [-10.   0.   0.]
+L2 error norm 0.5150160695211049
+Return: 571.51
+Experiment Number 966
+impact force: [  0. -10.   0.]
+L2 error norm 0.5206172269661882
+Return: 549.02
+Experiment Number 967
+impact force: [  0. -10.   0.]
+L2 error norm 0.5038772598952005
+Return: 638.89
+Experiment Number 968
+impact force: [10.  0.  0.]
+L2 error norm 0.5161342450270879
+Return: 567.40
+Experiment Number 969
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5191575023685675
+Return: 556.92
+Experiment Number 970
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5108404384381972
+Return: 589.20
+Experiment Number 971
+impact force: [10.  0.  0.]
+L2 error norm 0.5142054166296373
+Return: 606.90
+Experiment Number 972
+impact force: [  0. -10.   0.]
+L2 error norm 0.5057858212400191
+Return: 599.04
+Experiment Number 973
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5041147985666485
+Return: 616.57
+Experiment Number 974
+impact force: [-10.   0.   0.]
+L2 error norm 0.5124874211421636
+Return: 601.04
+Experiment Number 975
+impact force: [10.  0.  0.]
+L2 error norm 0.5081198781122698
+Return: 607.74
+Experiment Number 976
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4990561694072061
+Return: 651.98
+Experiment Number 977
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5224168313714539
+Return: 545.45
+Experiment Number 978
+impact force: [10.  0.  0.]
+L2 error norm 0.5088102606293252
+Return: 628.36
+Experiment Number 979
+impact force: [ 0.  0. 10.]
+L2 error norm 0.49843047088295966
+Return: 652.26
+Experiment Number 980
+impact force: [ 0. 10.  0.]
+L2 error norm 0.512169133318325
+Return: 588.92
+Experiment Number 981
+impact force: [10.  0.  0.]
+L2 error norm 0.5179606976508918
+Return: 586.64
+Experiment Number 982
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5275329342066963
+Return: 549.10
+Experiment Number 983
+impact force: [10.  0.  0.]
+L2 error norm 0.5088435039276971
+Return: 615.72
+Experiment Number 984
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4982108080347657
+Return: 658.99
+Experiment Number 985
+impact force: [10.  0.  0.]
+L2 error norm 0.5134448258356304
+Return: 569.96
+Experiment Number 986
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5192612943123096
+Return: 569.53
+Experiment Number 987
+impact force: [-10.   0.   0.]
+L2 error norm 0.5159179921558904
+Return: 571.38
+Experiment Number 988
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5087834253404563
+Return: 595.40
+Experiment Number 989
+impact force: [10.  0.  0.]
+L2 error norm 0.5171049361426621
+Return: 565.83
+Experiment Number 990
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5005050661515802
+Return: 645.71
+Experiment Number 991
+impact force: [  0. -10.   0.]
+L2 error norm 0.5050377048433514
+Return: 630.85
+Experiment Number 992
+impact force: [ 0.  0. 10.]
+L2 error norm 0.5003490523258111
+Return: 634.80
+Experiment Number 993
+impact force: [10.  0.  0.]
+L2 error norm 0.5082142589207999
+Return: 612.23
+Experiment Number 994
+impact force: [ 0. 10.  0.]
+L2 error norm 0.511874028335915
+Return: 583.88
+Experiment Number 995
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5041946784183666
+Return: 616.14
+Experiment Number 996
+impact force: [-10.   0.   0.]
+L2 error norm 0.5094330731515799
+Return: 602.58
+Experiment Number 997
+impact force: [ 0. 10.  0.]
+L2 error norm 0.5179261082672342
+Return: 602.87
+Experiment Number 998
+impact force: [10.  0.  0.]
+L2 error norm 0.5312076754783172
+Return: 527.87
+Experiment Number 999
+impact force: [  0. -10.   0.]
+L2 error norm 0.5038896053394402
+Return: 621.36
+Experiment Number 1000
+impact force: [ 0.  0. 10.]
+L2 error norm 0.4995433506920985
+Return: 647.30

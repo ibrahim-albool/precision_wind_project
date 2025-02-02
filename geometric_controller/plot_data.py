@@ -1,6 +1,8 @@
+import matplotlib
 import matplotlib.pyplot as plt
 from .aux_functions.plot_3x1 import plot_3x1
 import numpy as np
+matplotlib.use('TkAgg')
 def plot_geometric_data(geometric_controller):
     env = geometric_controller
     # Plot data
