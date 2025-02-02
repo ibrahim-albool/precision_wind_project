@@ -102,7 +102,7 @@ class GeometricControllerEnv:
         self.param = {}
         self.k = {}
         self.param['J'] = np.diag([self.J1, self.J2, self.J3])
-        self.param['m'] = 5
+        self.param['m'] = 1.75
         self.param['d'] = 0.169
         self.param['ctf'] = 0.0135
         self.param['x_delta'] = np.array([0.5, 0.8, -1])
