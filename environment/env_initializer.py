@@ -25,7 +25,7 @@ class Initializer:
                                            [0., -15., 0.],
                                            [0., 0., -15.]])
         env.impact_forces_list /= 15.
-        env.impact_forces_list *= 10.
+        env.impact_forces_list *= 1.
         # env.impact_force_index = np.random.randint(env.impact_forces_list.shape[0])
         # env.impact_force_index = 6
         env.impact_force_index = 1
@@ -42,10 +42,10 @@ class Initializer:
         env.counter = 0
         env.end_episode = False
 
-        env.impact_force_index = np.random.randint(env.impact_forces_list.shape[0]-2)+1
-        # env.impact_force_index += 1
-        # if env.impact_force_index > 5:
-        #     env.impact_force_index = 0
+        # env.impact_force_index = np.random.randint(env.impact_forces_list.shape[0]-2)+1
+        env.impact_force_index += 1
+        if env.impact_force_index > 5:
+            env.impact_force_index = 1
         env.impact_force = env.impact_forces_list[env.impact_force_index]
 
 
