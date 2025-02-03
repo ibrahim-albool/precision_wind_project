@@ -10,3 +10,4 @@ This experiment is run on a 7 force choices it ran on the folowing configuration
 --layers 64,64,64,64 
 --std 0.13 
 
+Best Policy is iteration 801 with return 599.82
