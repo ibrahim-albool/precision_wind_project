@@ -1,0 +1,25 @@
+Controller 0:
+Weight 1.75
+L2 error norm 0.6857294596403896
+Linf error norm 0.8140497612690141
+
+Weight 2.0 (original weight)
+L2 error norm 0.7328607350088012
+Linf error norm 0.825804685077738
+
+Weight 4.0 (original weight)
+L2 error norm 1.1757216548364207
+Linf error norm 0.9742146940046905
+
+Switching:
+Weight 1.75
+L2 error norm 0.47914255852001814
+Linf error norm 0.8003523866415408
+
+Weight 2.0 (original weight)
+L2 error norm 0.49676729128847313
+Linf error norm 0.8003523866415408
+
+Weight 4.0 (original weight)
+L2 error norm 0.6710558584988751
+Linf error norm 0.8025831248852353
