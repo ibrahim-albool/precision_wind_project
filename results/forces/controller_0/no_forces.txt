@@ -1,0 +1,2 @@
+L2 error norm 0.7328607350088012
+Linf error norm 0.825804685077738
