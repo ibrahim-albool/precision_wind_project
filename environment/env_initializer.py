@@ -18,15 +18,26 @@ class Initializer:
         env.end_episode = False
 
         env.impact_forces_list = np.array([[0., 0., 0.],
-                                           [15., 0., 0.],
-                                           [0., 15., 0.],
-                                           [0., 0., 15.],
-                                           [-15., 0., 0.],
-                                           [0., -15., 0.],
-                                           [0., 0., -15.]])
+                                           [1., 0., 0.],
+                                           [0., 1., 0.],
+                                           [0., 0., 1.],
+                                           [-1., 0., 0.],
+                                           [0., -1., 0.],
+                                           [0., 0., -1.]])
+
+        env.impact_forces_list *= 15.
+        # env.impact_forces_list *= 5.
+
         env.impact_force_index = np.random.randint(env.impact_forces_list.shape[0])
-        # env.impact_force_index = 0
+        # env.impact_force_index = -1
         env.impact_force = env.impact_forces_list[env.impact_force_index]
+
+        env.l2_norm_error_list = []
+
+        # env.impact_force_start_time = 5.0
+        # env.impact_force_duration = 0.2
+        env.is_evaluation = True
+        env.evaluation_counter = 0
 
 
 
@@ -36,8 +47,21 @@ class Initializer:
         env.counter = 0
         env.end_episode = False
 
-        env.impact_force_index = np.random.randint(env.impact_forces_list.shape[0])
-        # env.impact_force_index = 0
+        if env.is_evaluation:
+            env.impact_force_index = env.evaluation_counter % env.impact_forces_list.shape[0]
+            env.evaluation_counter += 1
+        else:
+            env.impact_force_index = np.random.randint(env.impact_forces_list.shape[0])
+        # env.impact_force_index = -1
         env.impact_force = env.impact_forces_list[env.impact_force_index]
+
+
+        env.l2_norm_error_list = []
+
+        env.impact_force_start_time = 5.0
+        env.impact_force_duration = 0.2
+
+        # env.impact_force_start_time = 8.5
+        # env.impact_force_duration = 1.2
 
         return env.control_engine.get_full_states()
