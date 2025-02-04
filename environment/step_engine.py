@@ -14,7 +14,7 @@ class ControlEngine:
         # print(action)
         action = np.clip(action, 0., 1.) > 0.5
 
-        # action = 1.
+        # action = 0.
 
         if action >= 0.5:  # Aggressive gains
             env.k['x'], env.k['v'], env.k['i'] = 30, 20, 30

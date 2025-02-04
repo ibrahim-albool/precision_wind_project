@@ -1,8 +1,9 @@
+import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch
 from mpl_toolkits.mplot3d import proj3d
 from mpl_toolkits.mplot3d.proj3d import proj_transform
-
+matplotlib.use('TkAgg')
 from .aux_functions.plot_3x1 import plot_3x1
 import numpy as np
 
@@ -62,7 +63,7 @@ def generate_impact_forces_arrows(t, x, d, dt, t_impact, duration, impact_force)
     # print(f"   times={[t[i] for i in indices]}")
 
     arrows = [Arrow3D(x[0, i] - dx, x[1, i] - dy, x[2, i] - dz, dx, dy, dz, mutation_scale=20,
-                      lw=1.5, arrowstyle="-|>", color="r") for i in indices]
+                      lw=1.5, arrowstyle="-|>", color="orange") for i in indices]
 
     return arrows
 
@@ -115,9 +116,9 @@ def plot_geometric_data(geometric_controller):
     env.x = env.x[:, :env.counter]
     env.d['x'] = env.d['x'][:, :env.counter]
 
-    ax.scatter3D(env.x[0, active_0], env.x[1, active_0], env.x[2, active_0], 'blue', label='UAV ctrl 0')
-    ax.scatter3D(env.x[0, active_1], env.x[1, active_1], env.x[2, active_1], 'green', label='UAV ctrl 1')
-    ax.plot3D(env.d['x'][0], env.d['x'][1], env.d['x'][2], 'g', label='ref')
+    ax.scatter3D(env.x[0, active_0], env.x[1, active_0], env.x[2, active_0], s=5, c='blue', label='UAV ctrl 0')
+    ax.scatter3D(env.x[0, active_1], env.x[1, active_1], env.x[2, active_1], s=5, c='red', label='UAV ctrl 1')
+    ax.plot3D(env.d['x'][0], env.d['x'][1], env.d['x'][2], 'green', label='ref')
 
     plt.xlabel("x (m)")
     plt.ylabel("y (m)")
