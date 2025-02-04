@@ -72,29 +72,34 @@ def plot_geometric_data(geometric_controller):
     env = geometric_controller
     # Plot data
     linetype, linewidth = 'k', 1
-    xlabel_ = 'time (s)'
+    xlabel_ = 'Time (s)'
 
 
     # plt.figure()
-    # plot_3x1(env.t, env.e['R'], '', xlabel_, 'e_R', linetype, linewidth)
+    # plot_3x1(env.t, env.e['R'], 'e_R', xlabel_, 'e_R', linetype, linewidth)
     #
     # plt.figure()
-    # plot_3x1(env.t, env.e['x'], '', xlabel_, 'e_x', linetype, linewidth)
+    # plot_3x1(env.t, env.e['x'], 'e_x', xlabel_, 'e_x', linetype, linewidth)
     #
     # plt.figure()
-    # plot_3x1(env.t, env.e['v'], '', xlabel_, 'e_v', linetype, linewidth)
+    # plot_3x1(env.t, env.e['v'], 'e_v', xlabel_, 'e_v', linetype, linewidth)
     #
     # plt.figure()
-    # plot_3x1(env.t, env.eI * np.array([env.k['I'], env.k['I'], env.k['yI']]).reshape((-1,1)), '', xlabel_, 'e', linetype, linewidth)
+    # plot_3x1(env.t, env.eI * np.array([env.k['I'], env.k['I'], env.k['yI']]).reshape((-1,1)), 'e_I', xlabel_, 'e', linetype, linewidth)
     # plt.plot(env.t, env.param['R_delta'] * np.ones((env.N, 3)), '', xlabel_, 'e_I', 'r', linewidth)
     #
     # plt.figure()
-    # plot_3x1(env.t, env.ei * env.k['i'], '', xlabel_, 'e_i', linetype, linewidth)
+    # plot_3x1(env.t, env.ei * env.k['i'], 'x_delta', xlabel_, 'e_i', linetype, linewidth)
     # plt.plot(env.t, env.param['x_delta'] * np.ones((env.N, 3)), '', xlabel_, 'e_i', 'r', linewidth)
-    #
+
     # plt.figure()
-    # plot_3x1(env.t, env.x, '', xlabel_, 'x', linetype, linewidth)
-    # plot_3x1(env.t, env.d['x'], '', xlabel_, 'x', 'r', linewidth)
+    y_signals = [env.d['x'], env.x, env.e['x']]
+    norms = [np.linalg.norm(s, axis=0) for s in y_signals]
+
+    plot_3x1(x=env.t, y_signals=y_signals, norms=norms, switching=geometric_controller.active_controller_list, title_='Trajectory Tracking', xlabel_=xlabel_, ylabels=['x-axis position (m)', 'y-axis position (m)', 'z-axis position (m)'], linetypes=["-", "--", "-."], linewidth=2)
+    # plot_3x1(x=env.t, y=env.d['x'], title_='desired_x', xlabel_=xlabel_, ylabel_='x', linetype='green', linewidth=2)
+    # plot_3x1(x=env.t, y=env.e['x'], title_='e_x', xlabel_=xlabel_, ylabel_='e_x', linetype='purple', linewidth=2)
+    plt.show()
 
     # plt.figure()
     # ax = plt.axes(projection='3d')
@@ -129,14 +134,14 @@ def plot_geometric_data(geometric_controller):
         ax.add_artist(arrow)
 
 
-    # plt.figure("Active Controller")
-    # plt.title("Active Controller Vs. Time", fontsize=24)
-    # plt.plot(env.t, active_controller_list, label='active controller', c='blue', linewidth=2.5)
-    # plt.xlabel("Time (s)", fontsize=24)
-    # plt.ylabel("Active Controller (0/1)", fontsize=24)
-    # # plt.legend(loc='lower right', fontsize=24)
-    # plt.xticks(fontsize=20)
-    # plt.yticks(fontsize=20)
+    plt.figure("Active Controller")
+    plt.title("Active Controller Vs. Time", fontsize=24)
+    plt.plot(env.t, active_controller_list, label='active controller', c='blue', linewidth=2.5)
+    plt.xlabel("Time (s)", fontsize=24)
+    plt.ylabel("Active Controller (0/1)", fontsize=24)
+    # plt.legend(loc='lower right', fontsize=24)
+    plt.xticks(fontsize=20)
+    plt.yticks(fontsize=20)
 
 
 
