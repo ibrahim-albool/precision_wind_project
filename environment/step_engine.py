@@ -75,7 +75,7 @@ class ControlEngine:
             return -500.
 
         # errors_reward = np.power(np.e, -10 * np.abs(env.pos_error)) - 0.5 * np.power(env.pos_error, 2)
-        error_norm_reward = np.power(np.e, -10 * np.abs(env.error_norm)) - 0.5 * np.power(env.error_norm, 2)
+        error_norm_reward = np.power(np.e, -10 * np.abs(env.error_norm)) + 0.5 * np.power(env.error_norm, 2)
 
         # rewards = np.concatenate((errors_reward, error_norm_reward))
         # weights = np.array([1., 1., 1., 1.])
