@@ -41,6 +41,16 @@ def eom(env, t, X, desired, k, param):
         # impact_force[0] = 15.
         impact_force = env.impact_force
 
+    # impact_force = env.impact_force * np.sin(t * 2 * np.pi/2.) * 2.
+
+    # impact_force = np.array([1,0,0]) * np.sign(np.sin(t * 2 * np.pi/1.)) * 4.
+
+    # impact_force = env.impact_force * np.sign(np.sin(t * 2 * np.pi/2.)) * 2.
+
+    # impact_force = np.array([1,0,0]) * np.sign(np.sin(t * 2 * np.pi/3.)) * 2.
+
+    # impact_force = env.impact_force * 2
+
     # f = 18.62
 
     # M = (0,0,0)

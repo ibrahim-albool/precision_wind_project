@@ -95,11 +95,9 @@ def plot_geometric_data(geometric_controller):
     # plt.figure()
     y_signals = [env.d['x'], env.x, env.e['x']]
     norms = [np.linalg.norm(s, axis=0) for s in y_signals]
+    plot_3x1(x=env.t, y_signals=y_signals, norms=norms, switching=geometric_controller.active_controller_list, title_='Trajectory Tracking', xlabel_=xlabel_, ylabels=['x-pos. (m)', 'y-pos. (m)', 'z-pos. (m)'], linetypes=["-", "--", "-."], linewidth=3)
 
-    plot_3x1(x=env.t, y_signals=y_signals, norms=norms, switching=geometric_controller.active_controller_list, title_='Trajectory Tracking', xlabel_=xlabel_, ylabels=['x-axis position (m)', 'y-axis position (m)', 'z-axis position (m)'], linetypes=["-", "--", "-."], linewidth=2)
-    # plot_3x1(x=env.t, y=env.d['x'], title_='desired_x', xlabel_=xlabel_, ylabel_='x', linetype='green', linewidth=2)
-    # plot_3x1(x=env.t, y=env.e['x'], title_='e_x', xlabel_=xlabel_, ylabel_='e_x', linetype='purple', linewidth=2)
-    plt.show()
+
 
     # plt.figure()
     # ax = plt.axes(projection='3d')
@@ -121,27 +119,29 @@ def plot_geometric_data(geometric_controller):
     env.x = env.x[:, :env.counter]
     env.d['x'] = env.d['x'][:, :env.counter]
 
-    ax.scatter3D(env.x[0, active_0], env.x[1, active_0], env.x[2, active_0], s=5, c='blue', label='UAV ctrl 0')
-    ax.scatter3D(env.x[0, active_1], env.x[1, active_1], env.x[2, active_1], s=5, c='red', label='UAV ctrl 1')
-    ax.plot3D(env.d['x'][0], env.d['x'][1], env.d['x'][2], 'green', label='ref')
+    # ax.scatter3D(env.x[0, active_0], env.x[1, active_0], env.x[2, active_0], s=5, c='blue', label='Ctr. 0')
+    # ax.scatter3D(env.x[0, active_1], env.x[1, active_1], env.x[2, active_1], s=5, c='red', label='Ctr. 1')
+    ax.plot3D(env.d['x'][0], env.d['x'][1], env.d['x'][2], 'green', label='Ref.')
 
-    plt.xlabel("x (m)")
-    plt.ylabel("y (m)")
-    plt.legend()
+    plt.xlabel("x (m)", fontsize=15)
+    plt.ylabel("y (m)", fontsize=15)
+    plt.tick_params(labelsize=13)
+    plt.legend(fontsize=13) #, loc="lower right")
+    plt.grid(True, linestyle="--", alpha=0.6)  # Light grid
 
     arrows = generate_impact_forces_arrows(env.t, env.x, env.d, env.dt, env.impact_force_start_time, env.impact_force_duration, env.impact_force)
     for arrow in arrows:
         ax.add_artist(arrow)
 
-
-    plt.figure("Active Controller")
-    plt.title("Active Controller Vs. Time", fontsize=24)
-    plt.plot(env.t, active_controller_list, label='active controller', c='blue', linewidth=2.5)
-    plt.xlabel("Time (s)", fontsize=24)
-    plt.ylabel("Active Controller (0/1)", fontsize=24)
-    # plt.legend(loc='lower right', fontsize=24)
-    plt.xticks(fontsize=20)
-    plt.yticks(fontsize=20)
+    plt.savefig("3d", format="pdf", dpi=300, bbox_inches="tight")
+    # plt.figure("Active Controller")
+    # plt.title("Active Controller Vs. Time", fontsize=24)
+    # plt.plot(env.t, active_controller_list, label='active controller', c='blue', linewidth=2.5)
+    # plt.xlabel("Time (s)", fontsize=24)
+    # plt.ylabel("Active Controller (0/1)", fontsize=24)
+    # # plt.legend(loc='lower right', fontsize=24)
+    # plt.xticks(fontsize=20)
+    # plt.yticks(fontsize=20)
 
 
 

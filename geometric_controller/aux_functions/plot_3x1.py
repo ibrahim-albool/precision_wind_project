@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 
 
 
-def plot_3x1(x, y_signals, norms, switching, title_, xlabel_, ylabels, linetypes, linewidth, font_size=10, save_path="plot.pdf"):
+def plot_3x1(x, y_signals, norms, switching, title_, xlabel_, ylabels, linetypes, linewidth, font_size=15, save_path="plot.pdf"):
     """
     Generates a 3x1 subplot figure, plotting multiple signals in each subplot with a legend.
 
@@ -42,14 +42,14 @@ def plot_3x1(x, y_signals, norms, switching, title_, xlabel_, ylabels, linetypes
     labels = [[r"$x^r$ (x-axis)", r"$x$ (x-axis)", r"$\overline{x}$ (x-axis)"],
               [r"$x^r$ (y-axis)", r"$x$ (y-axis)", r"$\overline{x}$ (y-axis)"],
               [r"$x^r$ (z-axis)", r"$x$ (z-axis)", r"$\overline{x}$ (z-axis)"],
-              [r"$\|\|\mathbf{x}^r\|\|_2$", r"$\|\|\mathbf{x}\|\|_2$", r"$\|\|\mathbf{\overline{x}}\|\|_2$", "Act. Ctr. $\{0,1\}$"]]
+              [r"$\|\|\mathbf{x}^r\|\|_2$", r"$\|\|\mathbf{x}\|\|_2$", r"$\|\|\mathbf{\overline{x}}\|\|_2$", "RL Swt."]]
 
     for i, ax in enumerate(axes[:-1]):
         for j in range(3):  # Loop over the three signals (x_r, x, error)
             ax.plot(x, y_signals[j][i], linetypes[j], color=colors[j], linewidth=linewidth, label=labels[i][j])
 
         ax.tick_params(labelsize=font_size)
-        ax.grid(True, linestyle="--", alpha=0.6)  # IEEE-style grid
+        ax.grid(True, linestyle="--", alpha=0.8)  # IEEE-style grid
         # ax.set_ylabel(f"${ylabel_}_{i+1}$", fontsize=font_size)
         ax.set_ylabel(f"{ylabels[i]}", fontsize=font_size)
         ax.legend(fontsize=font_size - 1, loc="upper right")  # Add legend to each subplot
@@ -57,7 +57,7 @@ def plot_3x1(x, y_signals, norms, switching, title_, xlabel_, ylabels, linetypes
         axes[3].plot(x, norms[j], linetypes[j], color=colors[j], linewidth=linewidth, label=labels[3][j])
     axes[3].plot(x, switching, color='gray', linewidth=linewidth, label=labels[3][3])
     axes[3].tick_params(labelsize=font_size)
-    axes[3].grid(True, linestyle="--", alpha=0.6)  # IEEE-style grid
+    axes[3].grid(True, linestyle="--", alpha=0.8)  # IEEE-style grid
     # ax.set_ylabel(f"${ylabel_}_{i+1}$", fontsize=font_size)
     axes[3].set_ylabel(f"$\|\|.\|\|_2$ (m)", fontsize=font_size)
     axes[3].legend(fontsize=font_size - 1, loc="upper right")  # Add legend to each subplot
