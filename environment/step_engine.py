@@ -43,8 +43,13 @@ class ControlEngine:
         # # show the plots
         if done:
             print(f"impact force: {env.impact_force}")
-            print(f"sum l2 norm(error) = {sum(env.l2_norm_error_list)}, termination time = {env.t[env.counter-1]}")
-            # print(f"l2 norm(error) = {env.l2_norm_error_list}")
+
+            L2_error_norm = np.array(env.l2_norm_error_list).flatten() * np.sqrt(env.dt) # dt will be squared in the L2 Norm
+            L2_error_norm = np.linalg.norm(L2_error_norm)
+            Linf_error_norm = np.max(env.l2_norm_error_list)
+            print(f"L2 error norm {L2_error_norm}")
+            print(f"Linf error norm {Linf_error_norm}")
+
             plot_geometric_data(env)
 
         # print(f"counter = {env.counter}, reward = {reward}, error_norm = {env.error_norm}")
