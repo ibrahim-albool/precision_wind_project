@@ -32,7 +32,7 @@ class Initializer:
         # env.impact_force_index = -1
         env.impact_force = env.impact_forces_list[env.impact_force_index]
 
-        env.l2_norm_error_list = []
+        env.l2_norm_err_list = []
 
         # env.impact_force_start_time = 5.0
         # env.impact_force_duration = 0.2
@@ -56,7 +56,7 @@ class Initializer:
         env.impact_force = env.impact_forces_list[env.impact_force_index]
 
 
-        env.l2_norm_error_list = []
+        env.l2_norm_err_list = []
 
         env.impact_force_start_time = 5.0
         env.impact_force_duration = 0.2

@@ -33,7 +33,7 @@ def plot_3x1(x, y_signals, norms, switching, title_, xlabel_, ylabels, linetypes
         font_size (int, optional): Font size for text elements. Default is 10.
         save_path (str, optional): File path to save the figure as a PDF.
     """
-
+    length = len(switching)
     fig, axes = plt.subplots(4, 1, figsize=(6, 8), constrained_layout=True)
 
     plt.rcParams['font.family'] = 'serif'  # Use a serif font for IEEE formatting
@@ -46,7 +46,7 @@ def plot_3x1(x, y_signals, norms, switching, title_, xlabel_, ylabels, linetypes
 
     for i, ax in enumerate(axes[:-1]):
         for j in range(3):  # Loop over the three signals (x_r, x, error)
-            ax.plot(x, y_signals[j][i], linetypes[j], color=colors[j], linewidth=linewidth, label=labels[i][j])
+            ax.plot(x[:length], y_signals[j][i][:length], linetypes[j], color=colors[j], linewidth=linewidth, label=labels[i][j])
 
         ax.tick_params(labelsize=font_size)
         ax.grid(True, linestyle="--", alpha=0.8)  # IEEE-style grid
@@ -54,8 +54,8 @@ def plot_3x1(x, y_signals, norms, switching, title_, xlabel_, ylabels, linetypes
         ax.set_ylabel(f"{ylabels[i]}", fontsize=font_size)
         ax.legend(fontsize=font_size - 1, loc="upper right")  # Add legend to each subplot
     for j in range(3):
-        axes[3].plot(x, norms[j], linetypes[j], color=colors[j], linewidth=linewidth, label=labels[3][j])
-    axes[3].plot(x, switching, color='gray', linewidth=linewidth, label=labels[3][3])
+        axes[3].plot(x[:length], norms[j][:length], linetypes[j], color=colors[j], linewidth=linewidth, label=labels[3][j])
+    axes[3].plot(x[:length], switching, color='gray', linewidth=linewidth, label=labels[3][3])
     axes[3].tick_params(labelsize=font_size)
     axes[3].grid(True, linestyle="--", alpha=0.8)  # IEEE-style grid
     # ax.set_ylabel(f"${ylabel_}_{i+1}$", fontsize=font_size)

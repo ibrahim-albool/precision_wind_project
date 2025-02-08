@@ -2,7 +2,7 @@ import numpy as np
 
 from geometric_controller.plot_data import plot_geometric_data
 from .env_initializer import Initializer
-
+np.random.seed(1111)
 
 class ControlEngine:
     def __init__(self, env, dynamics_randomization):
@@ -14,7 +14,7 @@ class ControlEngine:
         # print(action)
         action = np.clip(action, 0., 1.) > 0.5
 
-        # action = 0.
+        # action = 1.
 
         if action >= 0.5:  # Aggressive gains
             env.k['x'], env.k['v'], env.k['i'] = 30, 20, 30
@@ -34,8 +34,7 @@ class ControlEngine:
         env.dynamics_step()
         full_states = self.get_full_states()
         reward = self.reward()
-
-        env.l2_norm_error_list.append(env.error_norm)
+        env.l2_norm_err_list.append(env.error_norm)
 
         env.counter += 1
         done = env.counter >= env.N or env.end_episode
@@ -44,12 +43,11 @@ class ControlEngine:
         if done:
             print(f"impact force: {env.impact_force}")
 
-            L2_error_norm = np.array(env.l2_norm_error_list).flatten() * np.sqrt(env.dt) # dt will be squared in the L2 Norm
+            L2_error_norm = np.array(env.l2_norm_err_list).flatten() * np.sqrt(env.dt) # dt will be squared in the L2 Norm
             L2_error_norm = np.linalg.norm(L2_error_norm)
-            Linf_error_norm = np.max(env.l2_norm_error_list)
+            Linf_error_norm = np.max(env.l2_norm_err_list)
             print(f"L2 error norm {L2_error_norm}")
             print(f"Linf error norm {Linf_error_norm}")
-
             plot_geometric_data(env)
 
         # print(f"counter = {env.counter}, reward = {reward}, error_norm = {env.error_norm}")
@@ -75,7 +73,7 @@ class ControlEngine:
     def reward(self):
         env = self.env
 
-        if env.error_norm[0] > 1.:
+        if env.error_norm[0] > 20.:
             env.end_episode = True
             return -500.
 
